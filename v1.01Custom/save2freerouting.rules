@@ -1,0 +1,187 @@
+
+(rules PCB freerouting.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout on)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.7)
+    )
+    (layer_rule Inner1.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.7)
+    )
+    (layer_rule Inner2.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.3)
+    )
+    (layer_rule B.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.3)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clearance 190.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 47.6 (type smd))
+    (clearance 190.0 (type "kicad_default"))
+    (clearance 0.0 (type SolderJumper))
+    (clearance 200.0 (type USB))
+    (clearance 150.0 (type VBUS))
+  )
+  (padstack "Via[0-3]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle Inner1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle Inner2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:400_um" "Via[0-3]_600:400_um" default
+  )
+  (via 
+    "Via[0-3]_600:400_um-kicad_default" "Via[0-3]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_600:400_um-SolderJumper" "Via[0-3]_600:400_um" SolderJumper
+  )
+  (via 
+    "Via[0-3]_600:400_um-USB" "Via[0-3]_600:400_um" USB
+  )
+  (via 
+    "Via[0-3]_600:400_um-VBUS" "Via[0-3]_600:400_um" VBUS
+  )
+  (via_rule
+    default "Via[0-3]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:400_um-kicad_default"
+  )
+  (via_rule
+    SolderJumper "Via[0-3]_600:400_um-SolderJumper"
+  )
+  (via_rule
+    USB "Via[0-3]_600:400_um-USB"
+  )
+  (via_rule
+    VBUS "Via[0-3]_600:400_um-VBUS"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu Inner2.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND "/Power/L3_OUT" /Power/LX "/Power/12V_VCC" +3.3V "/Power/5VIN_BUCK_IN" "V_FUSED" "V_IN"
+    "VIN_POWER_MON" "VSSA_MON" VSSA "THERMISTOR_0" "THERMISTOR_1" "THERMISTOR_2" RESET "SPI1_MOSI"
+    "SPI1_MISO" "DRIVER_0_STEP" "DRIVER_0_DIR" "DRIVER_1_DIR" "DRIVER_1_STEP" "DRIVER_2_STEP" "DRIVER_2_DIR" "OUT_5"
+    "Net-(J46-TCT)" "Net-(J46-RCT)" "TEMP_0" /Processor/XOUT "TEMP_1" "TEMP_2" /Processor/XIN VREFP
+    "TEMP_3" "VBUS_DETECT" "PHY_RESET" "Net-(D4-A)" "Net-(D5-A)" "Net-(D6-A)" "THERMISTOR_3" "Net-(D7-A)"
+    "SPI1_SPCK" "RESET_EXT" ERASE "/Comms/can0_term_c" GRX0 GRX1 GMDC GRXDV
+    GMDIO "DRIVER_3_STEP" "DRIVER_3_DIR" "DRIVER_4_DIR" "DRIVER_4_STEP" "DRIVER_5_STEP" "DRIVER_5_DIR" QSCK
+    QMOSI GTXCK "PS_ON" GRXER GTX1 GTX0 GTXEN CANRX1
+    CANTX1 "IO_2_IN" "IO_6_IN" "IO_6" "IO_0" "IO_0_IN" "IO_2" "IO_1"
+    "IO_1_IN" "IO_5" "IO_4" "IO_3" "unconnected-(U11-PE1-Pad6)" "IO_6_OUT" "unconnected-(U11-PC23-Pad127)" "IO_0_OUT"
+    "IO_5_OUT" "IO_5_IN" "IO_4_IN" "VREF_MON" "IO_3_IN" /Processor/VDDCORE /Processor/VDDPLL /Processor/VDDUTMIC
+    /Processor/VBG /Comms/usbce "/Comms/can1_term_c" "/Comms/VDDA_3V3" "/Comms/VDD_1V2" /Comms/REXT /Comms/XO /Comms/XI
+    "/Comms/SHIELD_GND" "/Processor/io0_out" /Comms/cc2d "USB_STATE" CC1 "/Processor/NC_TST" "/Processor/NC_JSEL" "5V_INT"
+    "5V_EXT" "Net-(D23-A)" "Net-(D37-A)" "Net-(D42-A)" "3.3V_EXT" "/Power/5V_common" "/Power/5v_ext_fuse" "Net-(D62-A)"
+    "unconnected-(J16-Pad19)" "unconnected-(J16-Pad41)" "unconnected-(J16-Pad39)" "unconnected-(J16-Pad18)" "unconnected-(J16-Pad28)" "unconnected-(J16-Pad29)" "unconnected-(J16-Pad24)" "unconnected-(J16-Pad4)"
+    VREFN "unconnected-(J16-Pad23)" /Processor/VDDPLLUSB /Comms/cc1d "/IO/opt_io6_i_p" "/Power/5VIN_BUCK_EN" "/Power/5VIN_BUCK_SS" "/Power/5VIN_BUCK_FB"
+    "/Power/5VIN_BUCK_FSW" "/Power/5VIN_BUCK_BS" "/Power/5VIN_BUCK_COMP" "/Power/COMP_CAP_R" "/Power/3V3_EXT_ADJ" "/Power/3V3_EXT_OUT" CC2 "CAN1_L"
+    "CAN1_H" SWDIO SWCLK "V_BK_IN" "Net-(C145-Pad1)" "SPI1_DATA_RDY" MCDA2 "SD_CD"
+    MCDA1 MCCK MCCDA MCDA3 "/Power/12V_FB" "12V_MON" "/Power/12_VOUT" MCDA0
+    "Net-(C182-Pad1)" "/Power/12V_VSW" CANTX0 CANRX0 "unconnected-(J16-Pad34)" "/Power/12V_BST" "5V_SBC" "/IO/opt_io5_i_p"
+    "/IO/opt_io5_o" "/IO/opt_io6_o" /Comms/DAT2 /Comms/DAT3 /Comms/CMD "unconnected-(D1-Pad2)" "unconnected-(J43-SBU1-PadA8)" /Processor/rst
+    /Comms/CLK "unconnected-(J43-SBU2-PadB8)" "12V_EXT" spi1cs0 "Net-(J46-LEDG_A)" "DRIVER_1_ERR" "DRIVER_0_ERR" "DRIVER_3_ERR"
+    "DRIVER_2_ERR" "DRIVER_5_ERR" "DRIVER_4_ERR" "unconnected-(J46-NC-Pad7)" "Net-(J46-LEDY_K)" "unconnected-(J48-Pin_10-Pad10)" "D_2_STEP_NEG" "D_2_DIR_NEG"
+    "D_2_EN_NEG" "D_1_STEP_NEG" "D_1_DIR_NEG" "D_1_EN_NEG" "D_0_STEP_NEG" "D_0_DIR_NEG" "D_0_EN_NEG" "SPI0_CS4"
+    "SPI0_CS3" "SPI0_MISO" "SPI0_MOSI" "SPI0_SCK" "SPI0_CS1" "SPI0_CS2" "D_3_STEP_NEG" "D_3_DIR_NEG"
+    "D_3_EN_NEG" "D_4_STEP_NEG" "D_4_DIR_NEG" "D_4_EN_NEG" "D_5_STEP_NEG" "D_5_DIR_NEG" "D_5_EN_NEG" /Comms/DAT0
+    "USB_UFP_DETECT" "SPI1_MISO_BUFF" "SPI1_DATA_RDY_BUFF" "SPI1_CS0" "DRIVER_0_EN" "DRIVER_1_EN" "DRIVER_2_EN" "DRIVER_3_EN"
+    "DRIVER_4_EN" "DRIVER_5_EN" "STEP_GATE" "unconnected-(J48-Pin_16-Pad16)" "USB_PWR_EN" ~{FLG} "unconnected-(J48-Pin_11-Pad11)" "SPI1_MOSI_BUFF"
+    "SPI1_SCK_BUFF" /Comms/DAT1 "IO_5_IN_ISO_NEG" "IO_5_IN_ISO_POS" "unconnected-(J48-Pin_3-Pad3)" "IO_6_IN_ISO_NEG" "IO_5_OUT_ISO_NEG" "IO_6_OUT_ISO_NEG"
+    "IO_5_OUT_ISO_POS" "IO_6_OUT_ISO_POS" "IO_6_IN_ISO_POS" "/Comms/SD_cd" /Comms/TD+ "/Comms/TD-" /Comms/RD+ "/Comms/RD-"
+    /Comms/LED0 "/Comms/CAN1H_C" "/Comms/CAN1L_C" "/Comms/CAN0L_C" "/Comms/CAN0H_C" /Comms/q1b "/IO/opt_io5_oc" "V_FUSED_IO"
+    VFD "VFD_BUFF" "D_0_STEP_gated" "D_2_STEP_gated" "D_3_STEP_gated" "D_1_STEP_gated" "unconnected-(J48-Pin_13-Pad13)" "unconnected-(J48-Pin_7-Pad7)"
+    "D_4_STEP_gated" "D_5_STEP_gated" "/Headers/vfd_conn" "/IO/opt_io6_oc" "/IO/opt_io5_pin" /Comms/intrp "/IO/opt_io6_pin" "IO_5_OUT_ISO"
+    "/Power/12_out" "unconnected-(J48-Pin_8-Pad8)" "IO_6_OUT_ISO" "unconnected-(J48-Pin_12-Pad12)" "unconnected-(J48-Pin_18-Pad18)" "/Comms/REF_CLK" "unconnected-(J48-Pin_5-Pad5)" "SBC_3.3V"
+    "unconnected-(J48-Pin_15-Pad15)" "unconnected-(J48-Pin_26-Pad26)" "unconnected-(J48-Pin_1-Pad1)" "Net-(L7-B)" "unconnected-(U2-3Y-Pad8)" "unconnected-(U2-4Y-Pad11)" "unconnected-(U3-ESD3-Pad5)" "unconnected-(U11-PA9-Pad75)"
+    "unconnected-(U11-PD24-Pad55)" "unconnected-(U14-EN_SYNC-Pad9)" "unconnected-(U14-NC-Pad6)" "unconnected-(U14-PG-Pad8)" "unconnected-(U14-NC-Pad7)" "SPI1_SPCK_BUFF" "ESP_DATA_RDY" URXD4
+    UTXD4 "ESP_EN" "unconnected-(U11-PD23-Pad57)" "unconnected-(U11-PA3-Pad91)" "unconnected-(U11-PE3-Pad10)" "unconnected-(U11-PA17-Pad25)" "unconnected-(U11-PD16-Pad78)" "unconnected-(U11-PD27-Pad47)"
+    "unconnected-(U11-PE0-Pad4)" "unconnected-(U9-Y2-Pad7)" "unconnected-(U9-Y1-Pad5)" "unconnected-(U9-Y4-Pad11)" "unconnected-(U9-Y0-Pad3)" "unconnected-(U9-Y5-Pad13)" "unconnected-(U11-PC11-Pad94)" "unconnected-(U11-PA16-Pad45)"
+    "unconnected-(U11-PA12-Pad68)" "unconnected-(U11-PC8-Pad82)" "unconnected-(U11-PA11-Pad64)" "unconnected-(U11-PA15-Pad49)" "unconnected-(U11-PA24-Pad56)" "unconnected-(U11-PC5-Pad58)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu Inner2.Cu)
+    )
+  )
+  (class SolderJumper
+    "CAN0_H" "CAN0_L"
+    (clearance_class SolderJumper)
+    (via_rule SolderJumper)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu Inner2.Cu)
+    )
+  )
+  (class USB
+    HSDP HSDN
+    (clearance_class USB)
+    (via_rule USB)
+    (rule
+      (width 220.0)
+    )
+    (circuit 
+      (use_layer F.Cu Inner2.Cu)
+    )
+  )
+  (class VBUS
+    VBUS
+    (clearance_class VBUS)
+    (via_rule VBUS)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu Inner2.Cu)
+    )
+  )
+)

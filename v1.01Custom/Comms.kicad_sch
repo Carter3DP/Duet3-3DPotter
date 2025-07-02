@@ -14379,7 +14379,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "1K"
 			(at 65.5828 214.3252 90)
 			(effects
 				(font
@@ -14414,7 +14414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402FR-072K2L"
+		(property "Part Number" "AC0402FR-071KL"
 			(at 67.31 214.63 0)
 			(effects
 				(font
@@ -14423,7 +14423,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C144773"
+		(property "LCSC" "C144789"
 			(at 67.31 214.63 90)
 			(effects
 				(font

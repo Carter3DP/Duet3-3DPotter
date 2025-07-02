@@ -9176,7 +9176,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "1K"
 			(at 137.9728 184.4802 90)
 			(effects
 				(font
@@ -9210,7 +9210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402FR-072K2L"
+		(property "Part Number" "AC0402FR-071KL"
 			(at 139.7 184.785 0)
 			(effects
 				(font
@@ -9219,7 +9219,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C144773"
+		(property "LCSC" "C144789"
 			(at 139.7 184.785 90)
 			(effects
 				(font
@@ -9260,7 +9260,7 @@
 				)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "1K"
 			(at 149.4028 184.4802 90)
 			(effects
 				(font
@@ -9294,7 +9294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" " AC0402FR-0775RL"
+		(property "Part Number" "AC0402FR-071KL"
 			(at 151.13 184.785 0)
 			(effects
 				(font
@@ -9303,7 +9303,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C227222"
+		(property "LCSC" "C144789"
 			(at 151.13 184.785 90)
 			(effects
 				(font

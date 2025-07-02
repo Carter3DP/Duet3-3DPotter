@@ -11775,6 +11775,28 @@
 			)
 		)
 	)
+	(global_label "SPI1_SPCK"
+		(shape input)
+		(at 180.34 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "775ca266-f62a-4ab2-83a8-79faf051f256")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.9519 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "THERMISTOR_2"
 		(shape input)
 		(at 262.89 48.26 0)
@@ -12359,27 +12381,6 @@
 			(justify right)
 		)
 		(uuid "b5acd8e4-9939-4c9e-b2e2-118e66f26c28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.24 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI1_SCK_BUFF"
-		(shape input)
-		(at 180.34 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb688543-ee31-4082-ba8c-6c124d2db461")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.24 0 0)
 			(effects
@@ -15811,7 +15812,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "1K"
 			(at 243.3828 300.6852 90)
 			(effects
 				(font
@@ -15845,7 +15846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402FR-072K2L"
+		(property "Part Number" "AC0402FR-071KL"
 			(at 245.11 300.99 0)
 			(effects
 				(font
@@ -20475,7 +20476,7 @@
 				)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "1K"
 			(at 266.2428 301.9552 90)
 			(effects
 				(font
@@ -20509,7 +20510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" " AC0402FR-0775RL"
+		(property "Part Number" "AC0402FR-071KL"
 			(at 267.97 302.26 0)
 			(effects
 				(font
@@ -20518,7 +20519,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C227222"
+		(property "LCSC" "C144773"
 			(at 267.97 302.26 90)
 			(effects
 				(font
