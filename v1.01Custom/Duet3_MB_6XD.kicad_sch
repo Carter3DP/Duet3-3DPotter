@@ -12,6 +12,16 @@
 		(comment 1 "(c) Duet3D")
 	)
 	(lib_symbols)
+	(text "TODO:\n-Pullup on CMD (SD card in Comms)\n-Fix Pin names on SN74F125DR modules (Stepper Signals)\n-Change lcsc part # on MCU -- change to ATSAME70Q20B-ANT (Processor)"
+		(exclude_from_sim no)
+		(at 138.43 168.656 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "1a41d7f5-9bba-4ef4-ae74-189ee3a4ccb2")
+	)
 	(text "Duet3 Mainboard 6XD"
 		(exclude_from_sim no)
 		(at 116.84 19.05 0)
