@@ -14,3 +14,6 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 *.kicad_prl
+*.lck
+*-backups
+\#auto_saved_files\#
