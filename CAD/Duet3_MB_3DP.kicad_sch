@@ -1,18 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "94813053-1316-4754-9fb4-4dbbf7dc780d")
 	(paper "A4")
 	(title_block
-		(title "Duet 3 Main Board 6XD")
+		(title "Duet 3 Main Board 3DP")
 		(date "2023-02-22")
-		(rev "1.01")
-		(company "Duet3d")
-		(comment 1 "(c) Duet3D")
+		(rev "1.0")
+		(company "3DPotter")
+		(comment 1 "(c) 3DPotter")
 	)
 	(lib_symbols)
-	(text "TODO:\n-Pullup on CMD (SD card in Comms)\n-Fix Pin names on SN74F125DR modules (Stepper Signals)\n-Change lcsc part # on MCU -- change to ATSAME70Q20B-ANT (Processor)"
+	(text "TODO:\n-Pullup on CMD (SD card in Comms)\n-Fix Pin names on SN74F125DR modules (Stepper Signals)\n-Change lcsc part # on MCU -- change to ATSAME70Q20B-ANT (Processor)\n-Check license\n-Rework libraries"
 		(exclude_from_sim no)
 		(at 138.43 168.656 0)
 		(effects
@@ -22,7 +22,7 @@
 		)
 		(uuid "1a41d7f5-9bba-4ef4-ae74-189ee3a4ccb2")
 	)
-	(text "Duet3 Mainboard 6XD"
+	(text "Duet3 Mainboard 3DP"
 		(exclude_from_sim no)
 		(at 116.84 19.05 0)
 		(effects
@@ -124,6 +124,10 @@
 	(sheet
 		(at 15.24 22.86)
 		(size 85.09 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -152,7 +156,7 @@
 			)
 		)
 		(instances
-			(project "Duet3_MB_6XD"
+			(project "Duet3_MB_3DP"
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d"
 					(page "1")
 				)
@@ -162,6 +166,10 @@
 	(sheet
 		(at 105.41 22.86)
 		(size 85.09 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -190,7 +198,7 @@
 			)
 		)
 		(instances
-			(project "Duet3_MB_6XD"
+			(project "Duet3_MB_3DP"
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d"
 					(page "2")
 				)
@@ -200,6 +208,10 @@
 	(sheet
 		(at 195.58 85.725)
 		(size 85.09 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -228,7 +240,7 @@
 			)
 		)
 		(instances
-			(project "Duet3_MB_6XD"
+			(project "Duet3_MB_3DP"
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d"
 					(page "6")
 				)
@@ -238,6 +250,10 @@
 	(sheet
 		(at 15.24 145.415)
 		(size 83.82 46.355)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0)
 			(type solid)
@@ -265,7 +281,7 @@
 			)
 		)
 		(instances
-			(project "Duet3_MB_6XD"
+			(project "Duet3_MB_3DP"
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d"
 					(page "7")
 				)
@@ -275,6 +291,10 @@
 	(sheet
 		(at 15.24 85.09)
 		(size 85.09 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -303,7 +323,7 @@
 			)
 		)
 		(instances
-			(project "Duet3_MB_6XD"
+			(project "Duet3_MB_3DP"
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d"
 					(page "4")
 				)
@@ -313,6 +333,10 @@
 	(sheet
 		(at 105.41 85.09)
 		(size 85.09 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0)
 			(type solid)
@@ -340,7 +364,7 @@
 			)
 		)
 		(instances
-			(project "Duet3_MB_6XD"
+			(project "Duet3_MB_3DP"
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d"
 					(page "5")
 				)
@@ -350,6 +374,10 @@
 	(sheet
 		(at 195.58 22.86)
 		(size 85.09 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -378,7 +406,7 @@
 			)
 		)
 		(instances
-			(project "Duet3_MB_6XD"
+			(project "Duet3_MB_3DP"
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d"
 					(page "3")
 				)
@@ -390,4 +418,5 @@
 			(page "0")
 		)
 	)
+	(embedded_fonts no)
 )
