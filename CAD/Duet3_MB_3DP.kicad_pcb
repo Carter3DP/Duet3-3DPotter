@@ -4912,7 +4912,7 @@
 				)
 			)
 		)
-		(property "Value" "ATSAME70Q20B-AN"
+		(property "Value" "ATSAME70Q20B-ANT"
 			(at 0 12.475 180)
 			(layer "F.Fab")
 			(uuid "8231f06e-2ee3-4905-af5e-c0d72e3085eb")
@@ -4959,7 +4959,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C612779"
+		(property "LCSC" "C612769"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
