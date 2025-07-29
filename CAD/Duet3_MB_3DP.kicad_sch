@@ -12,7 +12,7 @@
 		(comment 1 "(c) 3DPotter")
 	)
 	(lib_symbols)
-	(text "TODO:\n-Change lcsc part # on MCU -- change to ATSAME70Q20B-ANT (Processor)\n-Check license\n-Rework libraries"
+	(text "TODO:\n-Check license\n-Rework libraries"
 		(exclude_from_sim no)
 		(at 138.43 168.656 0)
 		(effects

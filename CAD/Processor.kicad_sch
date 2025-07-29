@@ -15004,7 +15004,7 @@
 				)
 			)
 		)
-		(property "Value" "ATSAME70Q20B-AN"
+		(property "Value" "ATSAME70Q20B-ANT"
 			(at 144.78 149.86 0)
 			(effects
 				(font
@@ -15048,7 +15048,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C612779"
+		(property "LCSC" "C612769"
 			(at 144.78 144.78 0)
 			(effects
 				(font
