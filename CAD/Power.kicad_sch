@@ -9180,7 +9180,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10.7K"
 			(at 124.0028 184.4802 90)
 			(effects
 				(font
@@ -9214,7 +9214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402FR-0710KL"
+		(property "Part Number" "AC0402FR-0710K7L"
 			(at 125.73 184.785 0)
 			(effects
 				(font
@@ -9223,7 +9223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "0.1W is more than fine, board doesn't get more than 50V!!!"
+		(property "Rating" "50V, 62.5mW"
 			(at 125.73 184.785 0)
 			(effects
 				(font
@@ -9232,7 +9232,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C144807"
+		(property "LCSC" "C226748"
 			(at 125.73 184.785 90)
 			(effects
 				(font
@@ -9273,7 +9273,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "910R"
 			(at 137.9728 184.4802 90)
 			(effects
 				(font
@@ -9307,7 +9307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402FR-071KL"
+		(property "Part Number" "AC0402FR-07910RL"
 			(at 139.7 184.785 0)
 			(effects
 				(font
@@ -9316,7 +9316,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C144789"
+		(property "LCSC" "C227272"
 			(at 139.7 184.785 90)
 			(effects
 				(font
@@ -10597,7 +10597,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "2.37K"
 			(at 113.2078 184.4802 90)
 			(effects
 				(font
@@ -10631,7 +10631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402FR-072K2L"
+		(property "Part Number" "AC0402FR-072K37L"
 			(at 114.935 184.785 0)
 			(effects
 				(font
@@ -10640,7 +10640,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C144773"
+		(property "LCSC" "C226957"
 			(at 114.935 184.785 90)
 			(effects
 				(font
