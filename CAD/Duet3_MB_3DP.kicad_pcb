@@ -11827,7 +11827,7 @@
 				)
 			)
 		)
-		(property "Part Number" "GZ1608D102TF"
+		(property "Part Number" "BK1608HS102-T"
 			(at -115 305 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11839,7 +11839,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C35061"
+		(property "LCSC" "C454079"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11982,7 +11982,7 @@
 				)
 			)
 		)
-		(property "Part Number" "GZ1608D102TF"
+		(property "Part Number" "BK1608HS102-T"
 			(at -108 308.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11994,7 +11994,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C35061"
+		(property "LCSC" "C454079"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21825,7 +21825,7 @@
 				)
 			)
 		)
-		(property "Part Number" "GZ1608D102TF"
+		(property "Part Number" "BK1608HS102-T"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21837,7 +21837,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C35061"
+		(property "LCSC" "C454079"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

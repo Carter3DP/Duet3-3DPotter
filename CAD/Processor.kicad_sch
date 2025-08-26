@@ -13953,7 +13953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GZ1608D102TF"
+		(property "Part Number" "BK1608HS102-T"
 			(at 152.4 40.64 0)
 			(effects
 				(font
@@ -13962,7 +13962,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C35061"
+		(property "LCSC" "C454079"
 			(at 152.4 40.64 0)
 			(effects
 				(font
@@ -15852,7 +15852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GZ1608D102TF"
+		(property "Part Number" "BK1608HS102-T"
 			(at 139.7 35.56 0)
 			(effects
 				(font
@@ -15861,7 +15861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C35061"
+		(property "LCSC" "C454079"
 			(at 139.7 35.56 0)
 			(effects
 				(font
@@ -17871,7 +17871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GZ1608D102TF"
+		(property "Part Number" "BK1608HS102-T"
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -17880,7 +17880,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C35061"
+		(property "LCSC" "C454079"
 			(at 157.48 40.64 0)
 			(effects
 				(font
