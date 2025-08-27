@@ -17,3 +17,5 @@ fp-info-cache
 *.lck
 *-backups
 \#auto_saved_files\#
+*/production/
+*/production/**

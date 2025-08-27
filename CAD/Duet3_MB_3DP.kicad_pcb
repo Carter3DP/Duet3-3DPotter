@@ -28233,7 +28233,7 @@
 				)
 			)
 		)
-		(property "Part Number" "UPB321611T-800Y-N"
+		(property "Part Number" "UPB321611T-800Y-N(C280704) or YI321611G800-6R0T(C20416201) (if UPB unavailable)"
 			(at 205.8 316.35 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28257,7 +28257,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C280704"
+		(property "LCSC" "C20416201"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

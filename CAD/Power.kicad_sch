@@ -10913,7 +10913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "UPB321611T-800Y-N"
+		(property "Part Number" "UPB321611T-800Y-N(C280704) or YI321611G800-6R0T(C20416201) (if UPB unavailable)"
 			(at 182.88 38.1 0)
 			(effects
 				(font
@@ -10922,7 +10922,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C280704"
+		(property "LCSC" "C20416201"
 			(at 182.88 38.1 0)
 			(effects
 				(font
