@@ -501,7 +501,9 @@
     "pinned_footprint_libs": [
       "Carters_Various_Bits_and_Pieces"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "3DPotter"
+    ]
   },
   "meta": {
     "filename": "Duet3_MB_3DP.kicad_pro",
@@ -626,7 +628,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "C:\\Users\\GG\\OneDrive\\Documents\\Duet3DPotter\\CAD\\CAD\\Duet3_MB_6XD.csv",
+    "bom_export_filename": "..\\..\\..\\Duet3_MB_3DP.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -831,6 +833,18 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RotOffset",
+          "name": "RotOffset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PosOffset",
+          "name": "PosOffset",
           "show": false
         }
       ],
