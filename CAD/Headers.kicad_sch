@@ -19991,9 +19991,9 @@
 		(at 45.72 173.355 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005dbb9121")
 		(property "Reference" "J22"
 			(at 45.72 170.815 0)
