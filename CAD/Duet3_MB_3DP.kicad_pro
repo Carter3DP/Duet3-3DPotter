@@ -499,7 +499,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Carters_Various_Bits_and_Pieces"
+      "Carters_Various_Bits_and_Pieces",
+      "3DPotter"
     ],
     "pinned_symbol_libs": [
       "3DPotter",
