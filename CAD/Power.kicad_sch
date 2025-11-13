@@ -8587,6 +8587,16 @@
 		)
 		(uuid "479eb040-161a-44f4-b6d6-7d9d1dced60a")
 	)
+	(label "C6_1"
+		(at 76.2 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4eb788a5-e32a-4990-86d6-08d83e8947a7")
+	)
 	(label "RT"
 		(at 105.41 107.95 180)
 		(effects
