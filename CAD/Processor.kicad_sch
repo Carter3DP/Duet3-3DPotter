@@ -5692,6 +5692,16 @@
 		)
 		(uuid "3f8c62b4-e54e-43e2-8918-bac3be72a9db")
 	)
+	(text "Should this be pullup since\nthe gates are active low?"
+		(exclude_from_sim no)
+		(at 262.128 344.678 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "4909bd4b-dfbe-4ad7-9d2c-680a656db792")
+	)
 	(text "SWDIO also connected to status LED\nSWCLK also connected to act LED"
 		(exclude_from_sim no)
 		(at 46.99 167.64 0)
@@ -5735,6 +5745,16 @@
 			(justify left bottom)
 		)
 		(uuid "b3adbb5d-eab9-4bec-9c4b-0a13619cc23d")
+	)
+	(text "Unused\n"
+		(exclude_from_sim no)
+		(at 94.488 190.754 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "bddfc95e-d150-43bc-9b83-c3e608cac60b")
 	)
 	(text "Pulldown on:\nDriver 5 DIR\nID this as a v1.01 6XD board"
 		(exclude_from_sim no)
