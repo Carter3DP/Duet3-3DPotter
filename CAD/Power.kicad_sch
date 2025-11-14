@@ -4453,9 +4453,9 @@
 		)
 		(uuid "dcbb2089-65a6-482a-97b7-ebd738077b72")
 	)
-	(text "Yes, this fuse looks weird, it consists of 2 parts and\nKiCad does not have a good way of handling 1 symbol with 2 pieces"
+	(text "Yes, this fuse looks weird, it consists of 2 parts and\nKiCad does not have a good way of handling 1 symbol with 2 pieces\nFuse holder for 1/4\"x1 1/4\" (6.38mmx35mm) Ceramic (or glass?) fuses"
 		(exclude_from_sim no)
-		(at 183.896 137.16 0)
+		(at 183.896 136.144 0)
 		(effects
 			(font
 				(size 0.635 0.635)

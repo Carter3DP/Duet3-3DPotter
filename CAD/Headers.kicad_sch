@@ -35,7 +35,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CONN2_250-502/000-006_WAG"
+			(property "Footprint" "3DPotter:CONN2_250-502&slash_000-006_WAG"
 				(at 8.636 -6.096 0)
 				(effects
 					(font
@@ -62,14 +62,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "250-502/000-006"
@@ -24998,7 +24990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN2_250-502/000-006_WAG"
+		(property "Footprint" "3DPotter:CONN2_250-502&slash_000-006_WAG"
 			(at 48.006 30.226 0)
 			(effects
 				(font
