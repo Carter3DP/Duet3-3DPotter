@@ -7,7 +7,7 @@
 	(title_block
 		(title "Duet 3 Main Board 3DP")
 		(date "2023-02-22")
-		(rev "1.0")
+		(rev "1.5")
 		(company "3DPotter")
 		(comment 1 "(c) 3DPotter")
 	)

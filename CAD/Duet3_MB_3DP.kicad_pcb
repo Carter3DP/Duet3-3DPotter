@@ -10,7 +10,7 @@
 	(title_block
 		(title "Duet 3 MB 6XD")
 		(date "2023-02-22")
-		(rev "1.01")
+		(rev "1.5")
 		(company "Duet3D")
 		(comment 1 "(c) Duet3D")
 	)
@@ -57865,7 +57865,7 @@
 		(layer "F.CrtYd")
 		(uuid "c3cee136-afe0-4a10-b514-7833879483c6")
 	)
-	(gr_text "Duet 3 Mainboard\n3DPotter Version\nRevision v1.00"
+	(gr_text "Duet 3 Mainboard\n3DPotter Version\nRevision v1.50"
 		(at 78.75 188 0)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-00005d9bb9b3")
