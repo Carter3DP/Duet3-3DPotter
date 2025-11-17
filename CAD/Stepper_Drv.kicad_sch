@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "c1782c6e-f454-4a7a-9b30-4169b193813e")
-	(paper "A4")
+	(paper "A3" portrait)
 	(title_block
 		(title "Duet 3 Main Board 3DP")
 		(date "2023-02-22")
