@@ -18627,7 +18627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "complib:JST_ZH_1x06_P1.5_B6B-ZR-SM4-TF"
+		(property "Footprint" "3DPotter:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical"
 			(at 237.49 26.035 0)
 			(effects
 				(font

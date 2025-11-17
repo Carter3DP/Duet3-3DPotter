@@ -995,6 +995,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Carter: \"I am not too sure about these, \nthey only recommend this if you are controlling\nthe input with a transistor, not driven inputs,\nwhich these are.\""
+		(exclude_from_sim no)
+		(at 123.698 27.178 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "480120b5-f586-48ac-8802-eb20ff571534")
+	)
 	(text "Motor Gates"
 		(exclude_from_sim no)
 		(at 20.32 17.78 0)
@@ -1008,7 +1018,7 @@
 	)
 	(text "ClearPath recommends 1k pull-down for NPN / Sinking inputs.\nThis is tri-state, so these resistors are just to keep it from floating."
 		(exclude_from_sim no)
-		(at 85.344 30.48 0)
+		(at 85.344 20.828 0)
 		(effects
 			(font
 				(size 1.5 1.5)

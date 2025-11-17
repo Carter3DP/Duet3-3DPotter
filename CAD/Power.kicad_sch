@@ -15798,7 +15798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+		(property "Footprint" "3DPotter:Fuse_1812_4532Metric"
 			(at 226.06 30.48 0)
 			(effects
 				(font
