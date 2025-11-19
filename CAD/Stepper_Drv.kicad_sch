@@ -1534,16 +1534,6 @@
 		)
 		(uuid "480120b5-f586-48ac-8802-eb20ff571534")
 	)
-	(text "It is stated that ~{OE} should be tied to VCCa with a pullup.\nBut we need it to be low, I am unsure if we should tie a pin\nfrom the MCU directly to ~{OE} and then pullup or just tie\ndirectly to ground?\n"
-		(exclude_from_sim no)
-		(at 111.506 211.328 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "4b83e0d3-7df9-4712-bb7d-f0a0bba36ba1")
-	)
 	(text "Motor Gates"
 		(exclude_from_sim no)
 		(at 20.32 17.78 0)
@@ -1606,6 +1596,16 @@
 		)
 		(uuid "b169af78-0e30-49e1-83fe-db19ba5878b8")
 	)
+	(text "ROBERT: this makes sense.\nPlus they a lot of ~{OE} pins, when we only want one, really."
+		(exclude_from_sim no)
+		(at 134.366 35.814 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "ff089ac6-7112-4df2-a6ba-6361c883937c")
+	)
 	(junction
 		(at 214.63 190.5)
 		(diameter 0)
@@ -1665,12 +1665,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "239495cb-17d6-412d-bc6e-501df091dde0")
-	)
-	(junction
-		(at 125.73 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29a0861e-24a7-4d08-8871-c91c6d186cb6")
 	)
 	(junction
 		(at 91.44 162.56)
@@ -1973,12 +1967,6 @@
 		(uuid "f9760289-b0bd-468b-9cb2-4ec5572714d9")
 	)
 	(junction
-		(at 38.1 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd9affed-7ab5-454b-98ec-79f3082b5d36")
-	)
-	(junction
 		(at 217.17 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2201,16 +2189,6 @@
 			(type default)
 		)
 		(uuid "2021cf6d-11fe-4b29-9aa7-7ec2a45563c7")
-	)
-	(wire
-		(pts
-			(xy 38.1 162.56) (xy 50.8 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "216c3fb4-d8e8-4959-8f0f-7af21992edaa")
 	)
 	(wire
 		(pts
@@ -2484,7 +2462,7 @@
 	)
 	(polyline
 		(pts
-			(xy 15.24 300.99) (xy 281.94 300.99)
+			(xy 15.24 212.09) (xy 281.94 212.09)
 		)
 		(stroke
 			(width 0)
@@ -2584,7 +2562,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.94 300.99) (xy 281.94 15.24)
+			(xy 281.94 212.09) (xy 281.94 15.24)
 		)
 		(stroke
 			(width 0)
@@ -2864,16 +2842,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 162.56) (xy 138.43 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8830cf0e-a719-4741-8771-a60270ff8a85")
-	)
-	(wire
-		(pts
 			(xy 199.39 165.1) (xy 210.82 165.1)
 		)
 		(stroke
@@ -2894,7 +2862,7 @@
 	)
 	(polyline
 		(pts
-			(xy 15.24 15.24) (xy 15.24 300.99)
+			(xy 15.24 15.24) (xy 15.24 212.09)
 		)
 		(stroke
 			(width 0)
@@ -2974,23 +2942,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 162.56) (xy 38.1 162.56)
+			(xy 44.45 162.56) (xy 50.8 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "90e7a91c-b2e8-4b93-91cb-3f634e64958b")
-	)
-	(wire
-		(pts
-			(xy 125.73 152.4) (xy 125.73 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "926aa359-fcc0-435f-8b8d-345b156df2b2")
 	)
 	(wire
 		(pts
@@ -3164,16 +3122,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 152.4) (xy 38.1 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af0037c9-465d-4d70-a06f-4ead66c17dec")
-	)
-	(wire
-		(pts
 			(xy 264.16 165.1) (xy 256.54 165.1)
 		)
 		(stroke
@@ -3274,7 +3222,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 162.56) (xy 125.73 162.56)
+			(xy 132.08 162.56) (xy 138.43 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3544,16 +3492,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 167.64) (xy 172.72 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e169b9c8-b031-4919-aaab-e4d5d129b7ed")
-	)
-	(wire
-		(pts
 			(xy 86.36 195.58) (xy 86.36 190.5)
 		)
 		(stroke
@@ -3634,16 +3572,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 167.64) (xy 86.36 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eedde8b1-7d61-43db-a099-df2607f744a2")
-	)
-	(wire
-		(pts
 			(xy 48.26 116.84) (xy 50.8 116.84)
 		)
 		(stroke
@@ -3712,26 +3640,6 @@
 		)
 		(uuid "ff9053cc-a119-4f72-9cca-e7e2f3a291bc")
 	)
-	(label "~{OE}2"
-		(at 38.1 152.4 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6a762f50-6a40-4134-b943-4ab74beac1fe")
-	)
-	(label "~{OE}1"
-		(at 172.72 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78c0e8af-25c5-4884-8224-1cc6cac7c6ac")
-	)
 	(label "~{OE}step"
 		(at 199.39 152.4 270)
 		(effects
@@ -3741,26 +3649,6 @@
 			(justify right bottom)
 		)
 		(uuid "ba007601-a512-4b2e-be0c-92d8761bfbab")
-	)
-	(label "~{OE}1"
-		(at 125.73 152.4 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c29a14fa-406d-49b7-afcd-53f960f809b7")
-	)
-	(label "~{OE}2"
-		(at 86.36 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dde9f6a7-89b2-445a-8336-a3386d065cea")
 	)
 	(label "~{OE}step"
 		(at 247.65 170.18 0)
@@ -4046,26 +3934,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN_DIR_GATE"
-		(shape input)
-		(at 90.17 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24375619-9350-4d4c-b689-9b222de5a863")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -4712,22 +4580,22 @@
 	)
 	(global_label "5V_INT"
 		(shape input)
-		(at 118.11 162.56 90)
+		(at 132.08 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.5 1.5)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8cd22ffc-b5f0-471b-ad4c-7a068f2d91a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.11 152.5214 90)
+			(at 122.0414 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5078,22 +4946,22 @@
 	)
 	(global_label "5V_INT"
 		(shape input)
-		(at 27.94 162.56 90)
+		(at 44.45 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.5 1.5)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "aff6c7f9-4317-4133-80be-8ca7c7987b26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 152.5214 90)
+			(at 34.4114 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5562,26 +5430,6 @@
 		(uuid "eae53c22-63ac-4dde-b37d-6fc76dc8f347")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 88.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN_DIR_GATE"
-		(shape input)
-		(at 176.53 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eecfb4e7-a652-43ca-9ea6-5f071abaffb7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,6 +6008,73 @@
 			(project "Duet3_MB_3DP"
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-0000505779e3"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_8")
+		(lib_id "Duet3:GND")
+		(at 86.36 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ef704e4-7bed-4911-901c-beb10c93e7b0")
+		(property "Reference" "#PWR051"
+			(at 86.36 167.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.138 167.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "076cb62e-7cb4-4a57-814c-2850c4c2a008")
+		)
+		(instances
+			(project "Duet3_MB_3DP"
+				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-0000505779e3"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7057,91 +6972,6 @@
 			(project "Duet3_MB_3DP"
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-0000505779e3"
 					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 125.73 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5993a4c0-375e-42e7-8427-66ab75ecd7c1")
-		(property "Reference" "R72"
-			(at 121.92 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47K"
-			(at 121.92 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
-			(at 125.73 160.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 160.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402FR-0747KL"
-			(at 125.73 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C144757"
-			(at 125.73 160.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4afdd78c-0c99-46c7-8f71-968d13ccd299")
-		)
-		(pin "2"
-			(uuid "7e3997e8-6fb1-4f9a-a428-697e35dac8c1")
-		)
-		(instances
-			(project "Duet3_MB_3DP"
-				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-0000505779e3"
-					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -8805,6 +8635,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_8")
+		(lib_id "Duet3:GND")
+		(at 172.72 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b551736b-e8b9-4458-aeb9-57fa2dfce490")
+		(property "Reference" "#PWR068"
+			(at 172.72 167.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 174.498 167.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93dd8feb-77e9-413a-a373-58658d9b8551")
+		)
+		(instances
+			(project "Duet3_MB_3DP"
+				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-0000505779e3"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "3DPotter:SN74F125DR")
 		(at 69.85 105.41 0)
 		(unit 1)
@@ -9440,91 +9337,6 @@
 			(project "Duet3_MB_6XD"
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-0000505779e3"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 38.1 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e373e627-8229-4e7f-a53d-86489475c56f")
-		(property "Reference" "R65"
-			(at 34.29 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47K"
-			(at 34.29 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
-			(at 38.1 160.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 160.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402FR-0747KL"
-			(at 38.1 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C144757"
-			(at 38.1 160.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5aed1e91-f8c7-4375-a6e1-51170a513bdb")
-		)
-		(pin "2"
-			(uuid "bd2c8867-dd7b-4a9a-be86-37d1c06933ff")
-		)
-		(instances
-			(project "Duet3_MB_3DP"
-				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-0000505779e3"
-					(reference "R65")
 					(unit 1)
 				)
 			)

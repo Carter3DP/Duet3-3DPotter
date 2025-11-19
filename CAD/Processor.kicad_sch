@@ -6313,6 +6313,10 @@
 		(uuid "bef68a7d-94db-4731-8a4f-0333ca7e624b")
 	)
 	(no_connect
+		(at 175.26 205.74)
+		(uuid "c0153275-85d0-40ee-9dc6-bc5fc9e876a3")
+	)
+	(no_connect
 		(at 114.3 78.74)
 		(uuid "c63b92a3-ccaa-495e-b5d9-b6778d4a52d3")
 	)
@@ -6695,16 +6699,6 @@
 			(type default)
 		)
 		(uuid "136215e6-5a72-43b7-905e-e238f53214c3")
-	)
-	(wire
-		(pts
-			(xy 175.26 205.74) (xy 180.34 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13cde782-3ec1-409d-9982-5ccc0ddf5c82")
 	)
 	(wire
 		(pts
@@ -12536,26 +12530,6 @@
 		(uuid "d056d30f-ab09-4507-9269-9d99059f40c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.24 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN_DIR_GATE"
-		(shape input)
-		(at 180.34 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d68de411-b031-4eb3-885b-641ddcd62a1d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

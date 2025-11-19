@@ -4303,6 +4303,16 @@
 		)
 		(uuid "1d250614-9b7a-47bd-b443-0620cf5367d0")
 	)
+	(text "ROBERT: Is there a reason we aren't hard-coding 5V with the 24.9kOhm to VDDA?\n(as per page 16 of the datasheet)"
+		(exclude_from_sim no)
+		(at 217.424 95.758 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "1f79fb08-41a5-4c7f-a75b-093b19fb4334")
+	)
 	(text "DONE\n"
 		(exclude_from_sim no)
 		(at 85.09 135.89 0)
