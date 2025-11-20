@@ -3821,98 +3821,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Duet3:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Duet3:L_MINI"
 			(pin_numbers
 				(hide yes)
@@ -5692,16 +5600,6 @@
 		)
 		(uuid "3f8c62b4-e54e-43e2-8918-bac3be72a9db")
 	)
-	(text "Should this be pullup since\nthe gates are active low?"
-		(exclude_from_sim no)
-		(at 262.128 344.678 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "4909bd4b-dfbe-4ad7-9d2c-680a656db792")
-	)
 	(text "SWDIO also connected to status LED\nSWCLK also connected to act LED"
 		(exclude_from_sim no)
 		(at 46.99 167.64 0)
@@ -5766,17 +5664,6 @@
 			(justify left bottom)
 		)
 		(uuid "d679669c-dbee-46cc-acfa-653f77aa7e09")
-	)
-	(text "Step Pulldown"
-		(exclude_from_sim no)
-		(at 237.49 334.01 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "de9034c7-f575-4e46-8993-23752a6b1ce5")
 	)
 	(junction
 		(at 162.56 34.29)
@@ -6846,16 +6733,6 @@
 		)
 		(uuid "259b8072-e4b9-468a-98e1-f683c62b01f9")
 	)
-	(polyline
-		(pts
-			(xy 280.67 330.2) (xy 280.67 370.84)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "2686233a-79bc-4b23-96c4-6eb2988756fc")
-	)
 	(wire
 		(pts
 			(xy 22.86 177.8) (xy 21.59 177.8)
@@ -7135,16 +7012,6 @@
 			(type default)
 		)
 		(uuid "3a1f5dac-0be6-461c-a2a0-b8316941a3a2")
-	)
-	(wire
-		(pts
-			(xy 246.38 339.09) (xy 242.57 339.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a221f9a-f01c-4a13-8bc5-0e0ca1fa9d17")
 	)
 	(wire
 		(pts
@@ -7685,16 +7552,6 @@
 			(type default)
 		)
 		(uuid "5dfdd52b-98dd-40f9-8db3-3082eaf75b2e")
-	)
-	(polyline
-		(pts
-			(xy 234.95 330.2) (xy 280.67 330.2)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "5e64e4d5-5c6b-454f-9211-3fd7758fff0d")
 	)
 	(wire
 		(pts
@@ -9686,16 +9543,6 @@
 		)
 		(uuid "e4ede9a5-dc6b-4779-a389-95fccbbf4117")
 	)
-	(polyline
-		(pts
-			(xy 234.95 370.84) (xy 234.95 330.2)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "e4fb6b52-4e08-46a3-b2b0-dc848017d61c")
-	)
 	(wire
 		(pts
 			(xy 231.14 48.26) (xy 238.76 48.26)
@@ -9826,16 +9673,6 @@
 		)
 		(uuid "e9c145e6-6b2a-440e-945b-98072ff387ac")
 	)
-	(polyline
-		(pts
-			(xy 280.67 370.84) (xy 234.95 370.84)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "ea14a019-18ad-41db-a162-d6636da722af")
-	)
 	(wire
 		(pts
 			(xy 110.49 233.68) (xy 114.3 233.68)
@@ -9855,16 +9692,6 @@
 			(type default)
 		)
 		(uuid "eb33b3f4-be1d-4232-9cc6-15e8d3a203ee")
-	)
-	(wire
-		(pts
-			(xy 242.57 344.17) (xy 242.57 347.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebcfbdb5-872a-4a0d-ae64-41f53f48b075")
 	)
 	(wire
 		(pts
@@ -10988,28 +10815,6 @@
 		(uuid "3489cac6-fca4-4dd6-a68c-de954924f73c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.8718 111.6806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "STEP_GATE"
-		(shape input)
-		(at 246.38 339.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35d055cc-595c-4c6f-9aec-0dff5440d4e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7499 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16933,92 +16738,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 242.57 341.63 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005bcd2333")
-		(property "Reference" "R89"
-			(at 240.665 341.4268 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7K"
-			(at 244.2972 341.3252 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
-			(at 242.57 341.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 341.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402FR-074K7L"
-			(at 242.57 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C174364"
-			(at 242.57 341.63 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7bfe2c3-5087-49f7-8426-8ab34a8b3db0")
-		)
-		(pin "2"
-			(uuid "0f15e427-6e4a-4c5d-bb03-b4e2a6ac94ef")
-		)
-		(instances
-			(project ""
-				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050523307"
-					(reference "R89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "Duet3:GND")
 		(at 185.42 53.34 0)
@@ -19465,72 +19184,6 @@
 			(project ""
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050523307"
 					(reference "M12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duet3:GND")
-		(at 242.57 347.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005dfe24bc")
-		(property "Reference" "#PWR090"
-			(at 242.57 347.98 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 242.57 349.758 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 347.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 347.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "686a7f3b-1222-4e47-9303-c5b619851275")
-		)
-		(instances
-			(project ""
-				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050523307"
-					(reference "#PWR090")
 					(unit 1)
 				)
 			)
