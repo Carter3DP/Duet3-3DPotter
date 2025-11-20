@@ -366,16 +366,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -1.27 24.13 0)
+			(property "Reference" "U14"
+				(at 0 21.59 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "SN74LVC4245APW"
-				(at -1.27 21.59 0)
+			(property "Value" "SN74LVC4245APWR"
+				(at 0 19.05 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -407,6 +407,24 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RotOffset" "90"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C7859"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
 					)
 					(hide yes)
 				)
@@ -7910,7 +7928,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC4245APW"
+		(property "Value" "SN74LVC4245APWR"
 			(at 161.29 45.72 0)
 			(effects
 				(font
@@ -7943,6 +7961,24 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RotOffset" "270"
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7859"
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -8619,7 +8655,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC4245APW"
+		(property "Value" "SN74LVC4245APWR"
 			(at 74.93 45.72 0)
 			(effects
 				(font
@@ -8652,6 +8688,24 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RotOffset" "270"
+			(at 74.93 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7859"
+			(at 74.93 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -10008,7 +10062,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC4245APW"
+		(property "Value" "SN74LVC4245APWR"
 			(at 236.22 48.26 0)
 			(effects
 				(font
@@ -10041,6 +10095,24 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RotOffset" "270"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7859"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
