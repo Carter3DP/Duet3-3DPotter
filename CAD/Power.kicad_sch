@@ -4282,16 +4282,6 @@
 		)
 		(uuid "124ed3fc-404d-48bf-a67e-4c96991d65f4")
 	)
-	(text "ROBERT: C4 should be 4.7uF?"
-		(exclude_from_sim no)
-		(at 83.312 66.294 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "1b467446-68bc-4cec-bbb1-4dfa37efde52")
-	)
 	(text "PS_ON Control"
 		(exclude_from_sim no)
 		(at 120.65 190.5 0)
@@ -4303,16 +4293,6 @@
 		)
 		(uuid "1d250614-9b7a-47bd-b443-0620cf5367d0")
 	)
-	(text "ROBERT: Is there a reason we aren't hard-coding 5V with the 24.9kOhm to VDDA?\n(as per page 16 of the datasheet)"
-		(exclude_from_sim no)
-		(at 217.424 95.758 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "1f79fb08-41a5-4c7f-a75b-093b19fb4334")
-	)
 	(text "DONE\n"
 		(exclude_from_sim no)
 		(at 85.09 135.89 0)
@@ -4322,6 +4302,16 @@
 			)
 		)
 		(uuid "216d9c1d-018d-4911-8c0d-e4b4e8bb92db")
+	)
+	(text "ROBERT: D22 - LCSC and part number don't line up"
+		(exclude_from_sim no)
+		(at 88.646 28.448 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "2a93edb6-60f7-41c7-a750-3514001059f7")
 	)
 	(text "3A\n"
 		(exclude_from_sim no)
@@ -4389,7 +4379,7 @@
 		)
 		(uuid "8de02313-8c04-4a01-bedf-f738d772a35f")
 	)
-	(text "ROBERT: C4 and C5 should be close"
+	(text "ROBERT: C4 and C5 should be close\non the PCB"
 		(exclude_from_sim no)
 		(at 75.438 74.168 0)
 		(effects
