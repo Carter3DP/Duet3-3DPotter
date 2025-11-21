@@ -16938,9 +16938,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005bcd2333")
 		(property "Reference" "R89"
 			(at 240.665 341.4268 90)
