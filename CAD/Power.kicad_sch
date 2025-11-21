@@ -17385,7 +17385,7 @@
 				)
 			)
 		)
-		(property "Value" "CDBA5100-HF"
+		(property "Value" "ACDBC5100-HF"
 			(at 50.8 29.21 0)
 			(effects
 				(font
@@ -17420,7 +17420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CDBA5100-HF"
+		(property "Part Number" "ACDBC5100-HF"
 			(at 53.34 29.21 0)
 			(effects
 				(font
