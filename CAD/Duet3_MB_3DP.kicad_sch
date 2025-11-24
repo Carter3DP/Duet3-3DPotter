@@ -12,7 +12,7 @@
 		(comment 1 "(c) 3DPotter")
 	)
 	(lib_symbols)
-	(text "TODO:\n-Rework libraries"
+	(text "TODO:\n-Rework libraries\n "
 		(exclude_from_sim no)
 		(at 138.43 168.656 0)
 		(effects
