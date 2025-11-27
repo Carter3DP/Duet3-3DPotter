@@ -12,16 +12,6 @@
 		(comment 1 "(c) 3DPotter")
 	)
 	(lib_symbols)
-	(text "TODO:\n-Rework libraries\n "
-		(exclude_from_sim no)
-		(at 138.43 168.656 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "1a41d7f5-9bba-4ef4-ae74-189ee3a4ccb2")
-	)
 	(text "Duet3 Mainboard 3DP"
 		(exclude_from_sim no)
 		(at 116.84 19.05 0)
