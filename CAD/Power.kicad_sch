@@ -10370,7 +10370,7 @@
 				)
 			)
 		)
-		(property "Value" "910R"
+		(property "Value" "5K"
 			(at 139.2428 154.6352 90)
 			(effects
 				(font
@@ -10404,7 +10404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402FR-07910RL"
+		(property "Part Number" "RC0402FR-075KL"
 			(at 140.97 154.94 0)
 			(effects
 				(font
@@ -10413,7 +10413,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C227272"
+		(property "LCSC" "C477765"
 			(at 140.97 154.94 90)
 			(effects
 				(font
@@ -14379,7 +14379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:DFN1610-2L"
+		(property "Footprint" "3DPotter:DFN1610-2L"
 			(at 232.41 148.59 90)
 			(effects
 				(font

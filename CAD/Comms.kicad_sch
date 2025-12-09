@@ -14576,7 +14576,7 @@
 				)
 			)
 		)
-		(property "Value" "845R"
+		(property "Value" "5K"
 			(at 65.5828 220.6752 90)
 			(effects
 				(font
@@ -14611,7 +14611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402FR-07845RL"
+		(property "Part Number" "RC0402FR-075KL"
 			(at 67.31 220.98 0)
 			(effects
 				(font
@@ -14620,7 +14620,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C227247"
+		(property "LCSC" "C477765"
 			(at 67.31 220.98 90)
 			(effects
 				(font
@@ -15362,7 +15362,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b7026fc")
 		(property "Reference" "R133"
-			(at 85.09 42.545 90)
+			(at 84.074 42.291 90)
 			(effects
 				(font
 					(size 1.27 1.27)
