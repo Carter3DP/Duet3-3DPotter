@@ -24981,7 +24981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250-202/000-006"
+		(property "Value" "250-502/000-006"
 			(at 53.34 26.6699 0)
 			(effects
 				(font
@@ -24990,7 +24990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3DPotter:CONN2_250-202&slash_000-006_WAG"
+		(property "Footprint" "3DPotter:CONN2_250-502&slash_000-006_WAG"
 			(at 48.006 30.226 0)
 			(effects
 				(font
@@ -25000,7 +25000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "250-202/000-006"
+		(property "Datasheet" "250-502/000-006"
 			(at 48.514 34.29 0)
 			(effects
 				(font
@@ -25019,7 +25019,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2765061"
+		(property "LCSC" "C3309714"
 			(at 39.37 24.13 0)
 			(effects
 				(font
