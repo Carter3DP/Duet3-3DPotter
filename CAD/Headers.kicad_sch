@@ -8728,10 +8728,6 @@
 		(uuid "08a5df46-c608-4735-b6df-399130518241")
 	)
 	(no_connect
-		(at 105.41 252.73)
-		(uuid "220a50f9-2969-4e77-adf6-367b74710432")
-	)
-	(no_connect
 		(at 105.41 290.83)
 		(uuid "2e23c7e1-a7e0-4573-b375-71f0522d49fd")
 	)
@@ -8830,10 +8826,6 @@
 	(no_connect
 		(at 208.915 65.405)
 		(uuid "efa5d9c9-3ecc-446a-8576-931b348a98e0")
-	)
-	(no_connect
-		(at 105.41 256.54)
-		(uuid "f7a3acf0-2247-433c-9f86-97e4ebefc4de")
 	)
 	(wire
 		(pts
@@ -14331,6 +14323,26 @@
 			)
 		)
 	)
+	(global_label "spi1cs1"
+		(shape input)
+		(at 105.41 256.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3906b92d-75fc-41df-931f-a55511046c30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_OUT_LC_1"
 		(shape input)
 		(at 35.56 123.19 180)
@@ -14518,28 +14530,6 @@
 		(uuid "4190e961-29ee-44c2-a881-ef01db6189b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 88.4943 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN0_L"
-		(shape input)
-		(at 105.41 237.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "45786bb7-b3b2-4411-889f-d5941b65d259")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.1847 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14910,6 +14900,28 @@
 		(uuid "5832174c-ef1a-4666-8942-e12cc4d1df56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.3723 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI1_MISO"
+		(shape input)
+		(at 105.41 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b8dbf47-ac5b-402c-aec9-dd7abcd90f57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.2214 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16285,6 +16297,28 @@
 			)
 		)
 	)
+	(global_label "SPI1_MOSI_BUFF"
+		(shape input)
+		(at 105.41 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b15df31c-1144-4608-8c11-998ec90e5579")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.4761 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V_EXT"
 		(shape input)
 		(at 198.12 20.955 180)
@@ -16523,28 +16557,6 @@
 			)
 		)
 	)
-	(global_label "CAN0_H"
-		(shape input)
-		(at 105.41 233.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c1e0b1f1-fc48-410f-bb08-bdcaec5d4d89")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.8823 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V_EXT"
 		(shape input)
 		(at 138.43 137.16 90)
@@ -16665,6 +16677,28 @@
 		(uuid "c75f0646-f099-4328-8f99-723716a9f5ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.0954 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI1_SPCK_BUFF"
+		(shape input)
+		(at 105.41 252.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c90a66ee-8590-4c52-9ee6-7a710fb990d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.0528 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17640,7 +17674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 42.545 81.28 0)
 			(effects
 				(font
@@ -19679,7 +19713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Wurth_61900511121-1x05_P2.54mm_Vertical(Molex_KK-254_AE-6410-05A_Compatibe)"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical"
 			(at 165.1 143.51 0)
 			(effects
 				(font
@@ -19951,7 +19985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Wurth_61900311121-1x03_P2.54mm_Vertical(Molex_KK-254_AE-6410-03A_Compatible)"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 58.42 165.735 0)
 			(effects
 				(font
@@ -20190,7 +20224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 46.99 162.56 0)
 			(effects
 				(font
@@ -20870,7 +20904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 45.72 184.15 0)
 			(effects
 				(font
@@ -21689,7 +21723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 201.93 104.14 0)
 			(effects
 				(font
@@ -21784,7 +21818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 201.295 118.11 0)
 			(effects
 				(font
@@ -22560,7 +22594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Carters_Various_Bits_and_Pieces:Wurth_61900411121-1x04_P2.54mm_Vertical(1.2mm_ID)"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
 			(at 238.125 100.965 0)
 			(effects
 				(font
@@ -22876,7 +22910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Carters_Various_Bits_and_Pieces:Wurth_61900411121-1x04_P2.54mm_Vertical(1.2mm_ID)"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
 			(at 238.125 114.935 0)
 			(effects
 				(font

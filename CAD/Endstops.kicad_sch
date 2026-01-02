@@ -4239,7 +4239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 34.29 35.56 0)
 			(effects
 				(font
@@ -4324,7 +4324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 27.94 0)
 			(effects
 				(font
@@ -4496,7 +4496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.77 35.56 0)
 			(effects
 				(font
@@ -4581,7 +4581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.12 27.94 0)
 			(effects
 				(font
@@ -4665,7 +4665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.87 35.56 0)
 			(effects
 				(font
@@ -4750,7 +4750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 27.94 0)
 			(effects
 				(font
@@ -5010,7 +5010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -5183,7 +5183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.13 43.18 0)
 			(effects
 				(font
@@ -5267,7 +5267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.13 66.04 0)
 			(effects
 				(font
@@ -5351,7 +5351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 30.48 76.2 0)
 			(effects
 				(font
@@ -5436,7 +5436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 35.56 71.12 0)
 			(effects
 				(font
@@ -5522,7 +5522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Carters_Various_Bits_and_Pieces:SOP-4_3.8x10mm_P2.54mm"
+		(property "Footprint" "3DPotter:SOP254P1016X460-4N"
 			(at 45.72 91.44 0)
 			(effects
 				(font
@@ -5699,7 +5699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "complib:SOD-523F"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 52.5526 83.82 0)
 			(effects
 				(font
@@ -5868,7 +5868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 82.55 76.2 0)
 			(effects
 				(font
@@ -5953,7 +5953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.63 72.39 0)
 			(effects
 				(font
@@ -6039,7 +6039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Carters_Various_Bits_and_Pieces:SOP-4_3.8x10mm_P2.54mm"
+		(property "Footprint" "3DPotter:SOP254P1016X460-4N"
 			(at 97.79 92.71 0)
 			(effects
 				(font
@@ -6215,7 +6215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "complib:SOD-523F"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 104.6226 85.09 0)
 			(effects
 				(font
@@ -6385,7 +6385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Carters_Various_Bits_and_Pieces:SOP-4_3.8x10mm_P2.54mm"
+		(property "Footprint" "3DPotter:SOP254P1016X460-4N"
 			(at 160.02 45.72 0)
 			(effects
 				(font
@@ -6495,7 +6495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "complib:SOD-523F"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 184.6326 40.64 0)
 			(effects
 				(font
@@ -6579,7 +6579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 173.99 49.53 0)
 			(effects
 				(font
@@ -6940,7 +6940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Carters_Various_Bits_and_Pieces:SOP-4_3.8x10mm_P2.54mm"
+		(property "Footprint" "3DPotter:SOP254P1016X460-4N"
 			(at 160.02 68.58 0)
 			(effects
 				(font
@@ -7050,7 +7050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "complib:SOD-523F"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 184.6326 63.5 0)
 			(effects
 				(font
@@ -7134,7 +7134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 173.99 72.39 0)
 			(effects
 				(font
@@ -7494,7 +7494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 45.72 0)
 			(effects
 				(font
@@ -7578,7 +7578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.77 53.34 0)
 			(effects
 				(font
@@ -7663,7 +7663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Wbry"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.12 45.72 0)
 			(effects
 				(font
