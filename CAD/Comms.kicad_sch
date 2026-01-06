@@ -16951,7 +16951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+		(property "Footprint" "3DPotter:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_THT"
 			(at 180.34 85.09 0)
 			(effects
 				(font

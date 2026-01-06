@@ -3951,66 +3951,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Duet3:Logo_KICAD"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "Logo_KICAD"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Logo_KICAD_0_0"
-				(text "KiCAD"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DuetWifi-rescue:Mounting"
 			(pin_names
 				(offset 1.016)
@@ -10114,6 +10054,16 @@
 			(justify left bottom)
 		)
 		(uuid "3bb8266f-f52e-4d50-a5e0-de6fead648a3")
+	)
+	(label "IO_0_O"
+		(at 175.26 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59fa5cde-05f0-4490-b51d-27f92de03681")
 	)
 	(label "VDDPLL"
 		(at 152.4 50.8 90)
@@ -19190,80 +19140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Duet3:Logo_KICAD")
-		(at 132.715 397.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9d5cd7")
-		(property "Reference" "M12"
-			(at 136.652 396.2146 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Logo_KICAD"
-			(at 136.652 397.5608 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Symbol:KiCad-Logo_6mm_SilkScreen"
-			(at 136.652 397.5608 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.715 397.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 132.715 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "Virtual Component DNP"
-			(at 132.715 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050523307"
-					(reference "M12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 241.3 52.07 270)
 		(mirror x)
@@ -20606,7 +20482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3DPotter:3DPotter Logo"
+		(property "Footprint" "3DPotter:3DPotter Logo 10x10mm"
 			(at 140.97 396.24 0)
 			(effects
 				(font
