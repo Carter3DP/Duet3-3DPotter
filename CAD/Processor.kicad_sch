@@ -6120,10 +6120,6 @@
 		(uuid "879d0fa9-bdf9-402e-9328-1b46258d8689")
 	)
 	(no_connect
-		(at 175.26 121.92)
-		(uuid "8b4743c3-f0b5-4a70-ba51-7cba84c3a6b2")
-	)
-	(no_connect
 		(at 175.26 187.96)
 		(uuid "988fb20e-288a-4e4c-9a05-731482437afd")
 	)
@@ -8007,16 +8003,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 86.36) (xy 114.3 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83540a00-afb8-45bb-bf4f-0def469cb093")
-	)
-	(wire
-		(pts
 			(xy 154.94 24.13) (xy 154.94 25.4)
 		)
 		(stroke
@@ -9687,6 +9673,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 121.92) (xy 180.3918 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3a3242-4eaa-4135-a8a1-67d18aafa7f8")
+	)
+	(wire
+		(pts
 			(xy 121.92 38.1) (xy 121.92 21.59)
 		)
 		(stroke
@@ -10294,28 +10290,6 @@
 			)
 		)
 	)
-	(global_label "DRIVER_2_STEP"
-		(shape input)
-		(at 109.22 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "14af19bb-15f8-4668-a1c1-cc5f4206a888")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.4958 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DRIVER_3_DIR"
 		(shape input)
 		(at 109.22 119.38 180)
@@ -10398,6 +10372,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVER_2_STEP"
+		(shape input)
+		(at 180.3918 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c6f7b43-f5fb-4544-ae3a-8dbf3db19a10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.116 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
