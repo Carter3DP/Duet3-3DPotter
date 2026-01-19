@@ -6120,10 +6120,6 @@
 		(uuid "879d0fa9-bdf9-402e-9328-1b46258d8689")
 	)
 	(no_connect
-		(at 175.26 121.92)
-		(uuid "8b4743c3-f0b5-4a70-ba51-7cba84c3a6b2")
-	)
-	(no_connect
 		(at 175.26 187.96)
 		(uuid "988fb20e-288a-4e4c-9a05-731482437afd")
 	)
@@ -8007,16 +8003,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 86.36) (xy 114.3 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83540a00-afb8-45bb-bf4f-0def469cb093")
-	)
-	(wire
-		(pts
 			(xy 154.94 24.13) (xy 154.94 25.4)
 		)
 		(stroke
@@ -8704,6 +8690,16 @@
 			(type default)
 		)
 		(uuid "b277eeae-bd24-4c77-9db4-179c127bd771")
+	)
+	(wire
+		(pts
+			(xy 180.34 121.92) (xy 175.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b290cf39-fd93-4dd3-b305-7bfb1913953f")
 	)
 	(wire
 		(pts
@@ -10296,22 +10292,22 @@
 	)
 	(global_label "DRIVER_2_STEP"
 		(shape input)
-		(at 109.22 86.36 180)
+		(at 180.34 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "14af19bb-15f8-4668-a1c1-cc5f4206a888")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.4958 86.36 0)
+			(at 197.0642 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
