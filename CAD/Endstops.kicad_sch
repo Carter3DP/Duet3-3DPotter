@@ -6,8 +6,8 @@
 	(paper "A3" portrait)
 	(title_block
 		(title "Duet 3 Main Board 3DP")
-		(date "2023-02-22")
-		(rev "1.5")
+		(date "2026-02-17")
+		(rev "1.55")
 		(company "3DPotter")
 		(comment 1 "(c) 3DPotter")
 	)
@@ -5567,7 +5567,7 @@
 				(hide yes)
 			)
 		)
-		(property "RotOffset" "90"
+		(property "RotOffset" "0"
 			(at 45.72 83.82 0)
 			(effects
 				(font
@@ -5576,7 +5576,7 @@
 				(hide yes)
 			)
 		)
-		(property "PosOffset" "1.9,0"
+		(property "PosOffset" ""
 			(at 45.72 83.82 0)
 			(effects
 				(font
@@ -6084,7 +6084,7 @@
 				(hide yes)
 			)
 		)
-		(property "RotOffset" "90"
+		(property "RotOffset" "0"
 			(at 97.79 85.09 0)
 			(effects
 				(font
@@ -6093,7 +6093,7 @@
 				(hide yes)
 			)
 		)
-		(property "PosOffset" "1.9,0"
+		(property "PosOffset" ""
 			(at 97.79 85.09 0)
 			(effects
 				(font
@@ -6430,7 +6430,7 @@
 				(hide yes)
 			)
 		)
-		(property "RotOffset" "90"
+		(property "RotOffset" "0"
 			(at 160.02 38.1 0)
 			(effects
 				(font
@@ -6439,7 +6439,7 @@
 				(hide yes)
 			)
 		)
-		(property "PosOffset" "1.9,0"
+		(property "PosOffset" ""
 			(at 160.02 38.1 0)
 			(effects
 				(font
@@ -6985,7 +6985,7 @@
 				(hide yes)
 			)
 		)
-		(property "RotOffset" "90"
+		(property "RotOffset" "0"
 			(at 160.02 60.96 0)
 			(effects
 				(font
@@ -6994,7 +6994,7 @@
 				(hide yes)
 			)
 		)
-		(property "PosOffset" "1.9,0"
+		(property "PosOffset" ""
 			(at 160.02 60.96 0)
 			(effects
 				(font

@@ -6,8 +6,8 @@
 	(paper "A3" portrait)
 	(title_block
 		(title "Duet 3 Main Board 3DP")
-		(date "2023-02-22")
-		(rev "1.5")
+		(date "2026-02-17")
+		(rev "1.55")
 		(company "3DPotter")
 		(comment 1 "(c) 3DPotter")
 	)

@@ -6,8 +6,8 @@
 	(paper "A3" portrait)
 	(title_block
 		(title "Duet 3 Main Board 3DP")
-		(date "2023-02-22")
-		(rev "1.5")
+		(date "2026-02-17")
+		(rev "1.55")
 		(company "3DPotter")
 		(comment 1 "(c) 3DPotter")
 	)
@@ -3147,6 +3147,140 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Jumper"
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Device_Jumper"
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_0_1"
+				(circle
+					(center -2.54 0)
+					(radius 0.889)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4892 1.27)
+					(mid 0.0127 2.5097)
+					(end 2.5146 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.889)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 4.191)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 4.191)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -5911,98 +6045,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND_1"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GND_10"
 			(power)
 			(pin_numbers
@@ -8236,7 +8278,7 @@
 	)
 	(text "External reset connection"
 		(exclude_from_sim no)
-		(at 50.8 184.15 0)
+		(at 50.8 177.8 0)
 		(effects
 			(font
 				(size 0.7112 0.7112)
@@ -8280,7 +8322,7 @@
 	)
 	(text "additional 12V supply if\na VFD convertor is used"
 		(exclude_from_sim no)
-		(at 49.53 175.641 0)
+		(at 48.26 160.401 0)
 		(effects
 			(font
 				(size 0.7112 0.7112)
@@ -8957,16 +8999,6 @@
 		)
 		(uuid "05a4852f-523f-4afe-aae5-f5b26b161dad")
 	)
-	(wire
-		(pts
-			(xy 53.34 165.735) (xy 37.465 165.735)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0625035a-1031-4dad-a999-d98ae61d9e8b")
-	)
 	(polyline
 		(pts
 			(xy 74.93 13.97) (xy 74.93 187.071)
@@ -9439,16 +9471,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 168.275) (xy 36.83 168.275)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2250f02b-6691-4c68-bc70-fae0d2ea865f")
-	)
-	(wire
-		(pts
 			(xy 148.59 84.455) (xy 151.13 84.455)
 		)
 		(stroke
@@ -9557,16 +9579,6 @@
 		)
 		(uuid "2658af22-d9a8-4e25-a8ae-7c256377ea90")
 	)
-	(wire
-		(pts
-			(xy 51.435 163.195) (xy 51.435 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d69df6-3bd7-43de-ba2c-0a6ce3bd49b4")
-	)
 	(polyline
 		(pts
 			(xy 127 88.265) (xy 173.99 88.265)
@@ -9596,6 +9608,16 @@
 			(type default)
 		)
 		(uuid "29877bdb-52b0-412a-b168-d3d50534a075")
+	)
+	(wire
+		(pts
+			(xy 35.56 185.42) (xy 45.72 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a236511-f7ee-415e-8bed-0e712c928ec7")
 	)
 	(wire
 		(pts
@@ -9969,16 +9991,6 @@
 	)
 	(wire
 		(pts
-			(xy 51.435 162.56) (xy 49.53 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38968562-a92d-46f3-afb3-552903a2fe06")
-	)
-	(wire
-		(pts
 			(xy 106.045 120.015) (xy 101.6 120.015)
 		)
 		(stroke
@@ -10299,7 +10311,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 181.61) (xy 25.4 181.61)
+			(xy 45.72 170.18) (xy 24.13 170.18)
 		)
 		(stroke
 			(width 0)
@@ -10346,16 +10358,6 @@
 			(type default)
 		)
 		(uuid "462aad17-8146-4465-99ef-c14fd4deab84")
-	)
-	(wire
-		(pts
-			(xy 53.34 163.195) (xy 51.435 163.195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46781c20-85f2-4b62-b7e4-7dea7b4815c5")
 	)
 	(wire
 		(pts
@@ -10459,7 +10461,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 175.895) (xy 38.1 179.07)
+			(xy 36.83 160.655) (xy 36.83 163.83)
 		)
 		(stroke
 			(width 0)
@@ -10609,7 +10611,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 184.15) (xy 25.4 181.61)
+			(xy 24.13 172.72) (xy 24.13 170.18)
 		)
 		(stroke
 			(width 0)
@@ -11047,16 +11049,6 @@
 		)
 		(uuid "7cd97a38-3504-4852-92d6-c7385470f531")
 	)
-	(wire
-		(pts
-			(xy 36.83 168.275) (xy 36.83 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cdca799-76f6-4b9d-9a3e-6f404f27bd0c")
-	)
 	(polyline
 		(pts
 			(xy 276.225 33.02) (xy 276.225 14.605)
@@ -11116,16 +11108,6 @@
 			(type dash)
 		)
 		(uuid "80946bca-2cd1-4671-93d6-d1e22a4512bc")
-	)
-	(wire
-		(pts
-			(xy 44.45 162.56) (xy 42.545 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81079f99-3059-4329-b19a-838e311c1c8c")
 	)
 	(polyline
 		(pts
@@ -11459,7 +11441,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 175.895) (xy 38.1 175.895)
+			(xy 39.37 160.655) (xy 36.83 160.655)
 		)
 		(stroke
 			(width 0)
@@ -12059,7 +12041,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.925 173.355) (xy 40.64 173.355)
+			(xy 33.655 158.115) (xy 39.37 158.115)
 		)
 		(stroke
 			(width 0)
@@ -13377,16 +13359,6 @@
 		)
 		(uuid "fff3dea8-aa96-4a2c-9c8a-b17d094a7160")
 	)
-	(label "vfd_conn"
-		(at 50.8 162.56 0)
-		(effects
-			(font
-				(size 0.2032 0.2032)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ea9084d-1571-4aa9-96c2-5c0852ea9ba4")
-	)
 	(label "CAN_SHD_GND"
 		(at 102.87 38.735 0)
 		(effects
@@ -14435,7 +14407,7 @@
 	)
 	(global_label "RESET_EXT"
 		(shape input)
-		(at 40.64 184.15 180)
+		(at 35.56 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14445,7 +14417,7 @@
 		)
 		(uuid "3d7967ec-5531-4cc4-82a0-ed8ec1a94f7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0122 184.15 0)
+			(at 23.9322 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15412,28 +15384,6 @@
 			)
 		)
 	)
-	(global_label "VFD_BUFF"
-		(shape input)
-		(at 42.545 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "885790cb-d796-4d91-9e2c-f0ecef6adc56")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.7131 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "V_OUT_LC_2"
 		(shape input)
 		(at 35.56 141.605 180)
@@ -16061,27 +16011,6 @@
 			)
 		)
 	)
-	(global_label "VFD"
-		(shape input)
-		(at 258.445 20.955 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "a6491e0a-0397-40d4-bc27-39833c0a0f6c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -33.655 -41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D_2_DIR_NEG"
 		(shape input)
 		(at 101.6 114.935 180)
@@ -16433,7 +16362,7 @@
 	)
 	(global_label "12V_EXT"
 		(shape input)
-		(at 34.925 173.355 180)
+		(at 33.655 158.115 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16443,29 +16372,7 @@
 		)
 		(uuid "ba3fcc8a-b87a-4d28-af48-416b84291d98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4005 173.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_EXT"
-		(shape input)
-		(at 37.465 165.735 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "bb2dffec-a075-4e9a-8a0e-8d0142e71a22")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0775 165.735 0)
+			(at 24.1305 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17676,7 +17583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 42.545 81.28 0)
 			(effects
 				(font
@@ -17702,7 +17609,7 @@
 				)
 			)
 		)
-		(property "Part Number" "A2543WV-2P"
+		(property "Part Number" "B2B-XH-A(LF)(SN)"
 			(at 42.545 81.28 0)
 			(effects
 				(font
@@ -17711,7 +17618,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C239362"
+		(property "LCSC" "C158012"
 			(at 42.545 81.28 0)
 			(effects
 				(font
@@ -19715,7 +19622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 165.1 143.51 0)
 			(effects
 				(font
@@ -19741,7 +19648,7 @@
 				)
 			)
 		)
-		(property "Part Number" "A2543WV-5P"
+		(property "Part Number" "B5B-XH-A(LF)(SN)"
 			(at 165.1 143.51 0)
 			(effects
 				(font
@@ -19750,7 +19657,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C239365"
+		(property "LCSC" "C157991"
 			(at 165.1 143.51 0)
 			(effects
 				(font
@@ -19963,170 +19870,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 58.42 165.735 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9aab10")
-		(property "Reference" "J30"
-			(at 58.42 160.655 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "LASER/VFD"
-			(at 60.96 165.735 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 58.42 165.735 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 165.735 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 165.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "A2543WV-3P"
-			(at 58.42 165.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239363"
-			(at 58.42 165.735 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "RotOffset" "180"
-			(at 58.42 165.735 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4b980d6-abaa-46ab-9c25-feb779942b1d")
-		)
-		(pin "2"
-			(uuid "d7976592-1bab-47e4-a828-0f5e9fc3f283")
-		)
-		(pin "3"
-			(uuid "c7680348-6dbe-4027-a878-816512c64fac")
-		)
-		(instances
-			(project ""
-				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050656780"
-					(reference "J30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "Duet3:GND")
-		(at 36.83 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d9ade02")
-		(property "Reference" "#PWR0146"
-			(at 36.83 171.45 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 173.228 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 171.45 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 171.45 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a58a7bc5-2eff-453b-a264-7d68ee81425a")
-		)
-		(instances
-			(project ""
-				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050656780"
-					(reference "#PWR0146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Duet3:TP")
 		(at 258.445 24.765 270)
 		(unit 1)
@@ -20201,94 +19944,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 46.99 162.56 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005db02abb")
-		(property "Reference" "R108"
-			(at 46.355 160.655 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 48.895 164.465 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 162.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 162.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0603FR-07100RL"
-			(at 46.99 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C125923"
-			(at 46.99 162.56 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fc2981f-9604-4254-abdb-940c00a77c71")
-		)
-		(pin "2"
-			(uuid "e8e461b2-eb1b-4583-a0ed-83c16a99ea90")
-		)
-		(instances
-			(project ""
-				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050656780"
-					(reference "R108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 45.72 173.355 0)
+		(at 44.45 158.115 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20296,7 +19953,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005dbb9121")
 		(property "Reference" "J22"
-			(at 45.72 170.815 0)
+			(at 44.45 155.575 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -20304,7 +19961,7 @@
 			)
 		)
 		(property "Value" "A2543WV-2P"
-			(at 48.26 174.371 90)
+			(at 46.99 159.131 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -20313,7 +19970,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Wurth_61900211121-1x02_P2.54mm_Vertical-(Molex_KK-254_AE-6410-02Acompatible)"
-			(at 45.72 173.355 0)
+			(at 44.45 158.115 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20322,7 +19979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 173.355 0)
+			(at 44.45 158.115 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20331,7 +19988,7 @@
 			)
 		)
 		(property "Description" "12V+ GND"
-			(at 48.26 174.625 90)
+			(at 46.99 159.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20339,7 +19996,7 @@
 			)
 		)
 		(property "Part Number" "A2543WV-2P"
-			(at 45.72 173.355 0)
+			(at 44.45 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20348,7 +20005,7 @@
 			)
 		)
 		(property "LCSC" "C239362"
-			(at 45.72 173.355 0)
+			(at 44.45 158.115 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20357,7 +20014,7 @@
 			)
 		)
 		(property "RotOffset" "180"
-			(at 45.72 173.355 0)
+			(at 44.45 158.115 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20383,7 +20040,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "Duet3:GND")
-		(at 38.1 179.07 0)
+		(at 36.83 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20391,7 +20048,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dcb5bd5")
 		(property "Reference" "#PWR0147"
-			(at 38.1 179.07 0)
+			(at 36.83 163.83 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -20400,7 +20057,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 180.848 0)
+			(at 36.83 165.608 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -20409,7 +20066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 179.07 0)
+			(at 36.83 163.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20418,7 +20075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 179.07 0)
+			(at 36.83 163.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20427,7 +20084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 179.07 0)
+			(at 36.83 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20442,79 +20099,6 @@
 			(project ""
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050656780"
 					(reference "#PWR0147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Duet3:TP")
-		(at 258.445 20.955 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005dd0a98f")
-		(property "Reference" "TP16"
-			(at 268.605 20.955 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "VFD"
-			(at 267.335 20.955 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 258.445 20.955 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 258.445 20.955 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 258.445 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "Virtual Component DNP"
-			(at 258.445 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "684823d3-90e5-4a41-b8e3-4d8e619cbab3")
-		)
-		(instances
-			(project ""
-				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050656780"
-					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -20880,104 +20464,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 45.72 184.15 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000619b11ec")
-		(property "Reference" "J49"
-			(at 45.085 179.705 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "A2543WV-2P"
-			(at 48.26 183.134 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 45.72 184.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 184.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RST_EXT"
-			(at 48.26 183.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "A2543WV-2P"
-			(at 45.72 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239362"
-			(at 45.72 184.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "RotOffset" "180"
-			(at 45.72 184.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2da3494-d0ba-48f6-bd6e-01e6b16ed814")
-		)
-		(pin "2"
-			(uuid "640cf890-f0b6-4d24-8c98-40cee9738dbb")
-		)
-		(instances
-			(project ""
-				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050656780"
-					(reference "J49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_3")
 		(lib_id "Duet3:GND")
-		(at 25.4 184.15 0)
+		(at 24.13 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20985,7 +20474,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000619d0310")
 		(property "Reference" "#PWR0163"
-			(at 25.4 184.15 0)
+			(at 24.13 172.72 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -20994,7 +20483,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 185.928 0)
+			(at 24.13 174.498 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -21003,7 +20492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 184.15 0)
+			(at 24.13 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21012,7 +20501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 184.15 0)
+			(at 24.13 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21021,7 +20510,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 184.15 0)
+			(at 24.13 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21725,7 +21214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 201.93 104.14 0)
 			(effects
 				(font
@@ -21751,7 +21240,7 @@
 				)
 			)
 		)
-		(property "Part Number" "A2543WV-2P"
+		(property "Part Number" "B2B-XH-A(LF)(SN)"
 			(at 201.93 104.14 0)
 			(effects
 				(font
@@ -21760,7 +21249,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C239362"
+		(property "LCSC" "C158012"
 			(at 201.93 104.14 0)
 			(effects
 				(font
@@ -21820,7 +21309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 201.295 118.11 0)
 			(effects
 				(font
@@ -21846,7 +21335,7 @@
 				)
 			)
 		)
-		(property "Part Number" "A2543WV-2P"
+		(property "Part Number" "B2B-XH-A(LF)(SN)"
 			(at 201.295 118.11 0)
 			(effects
 				(font
@@ -21855,7 +21344,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C239362"
+		(property "LCSC" "C158012"
 			(at 201.295 118.11 0)
 			(effects
 				(font
@@ -22596,7 +22085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 238.125 100.965 0)
 			(effects
 				(font
@@ -22622,7 +22111,7 @@
 				)
 			)
 		)
-		(property "Part Number" "A2543WV-4P"
+		(property "Part Number" "B4B-XH-A(LF)(SN)"
 			(at 238.125 100.965 0)
 			(effects
 				(font
@@ -22631,7 +22120,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C239364"
+		(property "LCSC" "C144395"
 			(at 238.125 100.965 0)
 			(effects
 				(font
@@ -22912,7 +22401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 238.125 114.935 0)
 			(effects
 				(font
@@ -22938,7 +22427,7 @@
 				)
 			)
 		)
-		(property "Part Number" "A2543WV-4P"
+		(property "Part Number" "B4B-XH-A(LF)(SN)"
 			(at 238.125 114.935 0)
 			(effects
 				(font
@@ -22947,7 +22436,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C239364"
+		(property "LCSC" "C144395"
 			(at 238.125 114.935 0)
 			(effects
 				(font
@@ -24724,6 +24213,102 @@
 			(project ""
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050656780"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Jumper")
+		(at 45.72 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7155979b-6b22-4c1f-8412-d8d5e393b432")
+		(property "Reference" "JP1"
+			(at 48.9458 176.6316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ERASE"
+			(at 48.9458 178.943 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PZ254V-11-02P"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C492401"
+			(at 45.72 177.8 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "RotOffset" "90"
+			(at 45.72 177.8 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c1afb55-b6b7-4d47-9118-ea3dedf805c7")
+		)
+		(pin "2"
+			(uuid "27187fdc-8749-4491-8436-141c05975555")
+		)
+		(instances
+			(project "Duet3_MB_3DP"
+				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050656780"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
