@@ -28815,7 +28815,7 @@
 				)
 			)
 		)
-		(property "RotOffset" "270"
+		(property "RotOffset" "180"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39243,7 +39243,7 @@
 		(descr "4-Pin SMD")
 		(tags "Phototransistor")
 		(property "Reference" "U23"
-			(at -0.4 -3.4 270)
+			(at -2.075 -3.375 270)
 			(layer "F.SilkS")
 			(uuid "3b070732-7278-4a07-b76e-92128f5deae6")
 			(effects
@@ -64884,7 +64884,7 @@
 				)
 			)
 		)
-		(property "RotOffset" "90"
+		(property "RotOffset" "270"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67520,7 +67520,7 @@
 				)
 			)
 		)
-		(property "RotOffset" "270"
+		(property "RotOffset" "90"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70084,7 +70084,7 @@
 		(layer "F.CrtYd")
 		(uuid "c3cee136-afe0-4a10-b514-7833879483c6")
 	)
-	(gr_text "Duet 3 Mainboard\n3DPotter Version\nRevision v1.55\n"
+	(gr_text "Duet 3 Mainboard\n3DPotter Version\nRevision v1.56\n"
 		(at 78.75 188 0)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-00005d9bb9b3")
@@ -70438,7 +70438,7 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "Duet 3 Mainboard 3DPotter\nRevision  v1.00"
+	(gr_text "Duet 3 Mainboard 3DPotter\nRevision  v1.56\n"
 		(at 136.8 100.8 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-00005d9bbad9")
@@ -70522,20 +70522,8 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "VFD\n\n5V\n\nGND"
-		(at 81.35 197.25 0)
-		(layer "B.SilkS")
-		(uuid "00000000-0000-0000-0000-00005da5f5af")
-		(effects
-			(font
-				(size 0.9 1)
-				(thickness 0.15)
-			)
-			(justify left mirror)
-		)
-	)
 	(gr_text "IN_NEG\n\nIN_POS"
-		(at 88.3 121.7 0)
+		(at 74.3 118.725 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-000061ceac25")
 		(effects
@@ -70594,20 +70582,8 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "LASER/VFD"
-		(at 85.5 201.2 -90)
-		(layer "B.SilkS")
-		(uuid "00000000-0000-0000-0000-0000620f97c3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left mirror)
-		)
-	)
 	(gr_text "GND\n\nIO_6_OUT_NEG\n\nIO_6_OUT_POS\n\nV_FUSED_IO"
-		(at 88.2 135.425 0)
+		(at 88.2 135.15 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-0000620f98b8")
 		(effects
@@ -70619,7 +70595,7 @@
 		)
 	)
 	(gr_text "GND\n\nIO_5_OUT_NEG\n\nIO_5_OUT_POS\n\nV_FUSED_IO"
-		(at 87.875 147.275 0)
+		(at 87.575 148.575 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-0000620f98bc")
 		(effects
@@ -70643,7 +70619,7 @@
 		)
 	)
 	(gr_text "IO_5_IN\nISOLATED"
-		(at 84 124.8 270)
+		(at 70 121.825 270)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-0000620f98d3")
 		(effects

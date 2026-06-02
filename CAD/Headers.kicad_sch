@@ -8451,6 +8451,16 @@
 		)
 		(uuid "bb743bd8-8421-46c4-ac9d-4a9b56075048")
 	)
+	(text "Before Next Order Change to KK-254\n"
+		(exclude_from_sim no)
+		(at 44.45 78.74 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "c0e4e9c2-22f6-4517-b71b-31f64e6009db")
+	)
 	(text "PanelDue"
 		(exclude_from_sim no)
 		(at 128.27 92.075 0)
@@ -9611,7 +9621,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 185.42) (xy 45.72 185.42)
+			(xy 35.56 185.42) (xy 44.45 185.42)
 		)
 		(stroke
 			(width 0)
@@ -10311,7 +10321,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 170.18) (xy 24.13 170.18)
+			(xy 44.45 170.18) (xy 24.13 170.18)
 		)
 		(stroke
 			(width 0)
@@ -24220,7 +24230,7 @@
 	)
 	(symbol
 		(lib_id "Device:Jumper")
-		(at 45.72 177.8 270)
+		(at 44.45 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24228,7 +24238,7 @@
 		(dnp no)
 		(uuid "7155979b-6b22-4c1f-8412-d8d5e393b432")
 		(property "Reference" "JP1"
-			(at 48.9458 176.6316 90)
+			(at 47.6758 176.6316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24236,8 +24246,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ERASE"
-			(at 48.9458 178.943 90)
+		(property "Value" "RESET"
+			(at 47.6758 178.943 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24246,7 +24256,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 45.72 177.8 0)
+			(at 44.45 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24255,7 +24265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 177.8 0)
+			(at 44.45 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24264,7 +24274,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 177.8 0)
+			(at 44.45 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24273,7 +24283,7 @@
 			)
 		)
 		(property "Part Number" "PZ254V-11-02P"
-			(at 45.72 177.8 0)
+			(at 44.45 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24282,7 +24292,7 @@
 			)
 		)
 		(property "LCSC" "C492401"
-			(at 45.72 177.8 90)
+			(at 44.45 177.8 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24291,7 +24301,7 @@
 			)
 		)
 		(property "RotOffset" "90"
-			(at 45.72 177.8 90)
+			(at 44.45 177.8 90)
 			(effects
 				(font
 					(size 1.524 1.524)

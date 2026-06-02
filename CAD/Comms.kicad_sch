@@ -16996,7 +16996,7 @@
 				(hide yes)
 			)
 		)
-		(property "RotOffset" "270"
+		(property "RotOffset" "180"
 			(at 180.34 86.36 0)
 			(effects
 				(font
@@ -23691,7 +23691,7 @@
 				(hide yes)
 			)
 		)
-		(property "RotOffset" "270"
+		(property "RotOffset" "90"
 			(at 251.46 181.61 0)
 			(effects
 				(font
@@ -23906,7 +23906,7 @@
 				(hide yes)
 			)
 		)
-		(property "RotOffset" "270"
+		(property "RotOffset" "90"
 			(at 251.46 170.18 0)
 			(effects
 				(font
@@ -24013,7 +24013,7 @@
 				(hide yes)
 			)
 		)
-		(property "RotOffset" "90"
+		(property "RotOffset" "270"
 			(at 69.85 177.8 0)
 			(effects
 				(font
