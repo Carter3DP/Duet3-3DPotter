@@ -19895,7 +19895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "3DPotter:TestPoint_Pad_D1.5mm"
 			(at 258.445 24.765 0)
 			(effects
 				(font
