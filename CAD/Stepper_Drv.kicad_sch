@@ -5,9 +5,9 @@
 	(uuid "c1782c6e-f454-4a7a-9b30-4169b193813e")
 	(paper "A3" portrait)
 	(title_block
-		(title "Duet 3 Main Board 3DP")
-		(date "2026-02-17")
-		(rev "1.55")
+		(title "Duet 3 MB 3DP")
+		(date "2026-06-02")
+		(rev "1.56")
 		(company "3DPotter")
 		(comment 1 "(c) 3DPotter")
 	)
@@ -6277,7 +6277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 96.52 48.26 0)
 			(effects
 				(font
@@ -6497,7 +6497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 143.51 48.26 0)
 			(effects
 				(font
@@ -7105,7 +7105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 130.81 48.26 0)
 			(effects
 				(font
@@ -7478,7 +7478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 55.88 48.26 0)
 			(effects
 				(font
@@ -7850,7 +7850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 189.23 48.26 0)
 			(effects
 				(font
@@ -8577,7 +8577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 204.47 50.8 0)
 			(effects
 				(font
@@ -9524,7 +9524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 43.18 48.26 0)
 			(effects
 				(font
@@ -9611,7 +9611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 261.62 50.8 0)
 			(effects
 				(font
@@ -9917,7 +9917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 215.9 50.8 0)
 			(effects
 				(font

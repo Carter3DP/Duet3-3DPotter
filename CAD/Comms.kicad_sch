@@ -5,9 +5,9 @@
 	(uuid "fe8ec923-c601-4692-a975-a285cc204b16")
 	(paper "A3" portrait)
 	(title_block
-		(title "Duet 3 Main Board 3DP")
-		(date "2026-02-17")
-		(rev "1.55")
+		(title "Duet 3 MB 3DP")
+		(date "2026-06-02")
+		(rev "1.56")
 		(company "3DPotter")
 		(comment 1 "(c) 3DPotter")
 	)
@@ -14860,7 +14860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 67.31 220.98 0)
 			(effects
 				(font
@@ -15032,7 +15032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 59.69 224.79 0)
 			(effects
 				(font
@@ -15117,7 +15117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 48.26 228.6 0)
 			(effects
 				(font
@@ -15204,7 +15204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 52.07 228.6 0)
 			(effects
 				(font
@@ -15394,7 +15394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 58.42 31.75 0)
 			(effects
 				(font
@@ -15481,7 +15481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 34.29 55.88 0)
 			(effects
 				(font
@@ -15568,7 +15568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 95.25 48.26 0)
 			(effects
 				(font
@@ -15653,7 +15653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 86.36 41.91 0)
 			(effects
 				(font
@@ -15738,7 +15738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 86.36 54.61 0)
 			(effects
 				(font
@@ -15922,7 +15922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 128.27 96.52 0)
 			(effects
 				(font
@@ -16007,7 +16007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 148.59 73.66 0)
 			(effects
 				(font
@@ -17195,7 +17195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 130.81 115.57 0)
 			(effects
 				(font
@@ -17685,7 +17685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 228.6 73.66 0)
 			(effects
 				(font
@@ -17772,7 +17772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 228.6 81.28 0)
 			(effects
 				(font
@@ -18029,7 +18029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 222.25 87.63 0)
 			(effects
 				(font
@@ -18114,7 +18114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 220.98 92.71 0)
 			(effects
 				(font
@@ -18199,7 +18199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 201.93 110.49 0)
 			(effects
 				(font
@@ -18522,7 +18522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 215.9 127 0)
 			(effects
 				(font
@@ -18609,7 +18609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 240.03 127 0)
 			(effects
 				(font
@@ -18694,7 +18694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -18779,7 +18779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 152.4 58.42 0)
 			(effects
 				(font
@@ -18940,7 +18940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 237.49 101.6 0)
 			(effects
 				(font
@@ -19025,7 +19025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 158.75 118.11 0)
 			(effects
 				(font
@@ -19197,7 +19197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 163.83 39.37 0)
 			(effects
 				(font
@@ -19284,7 +19284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 170.18 41.91 0)
 			(effects
 				(font
@@ -19545,7 +19545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 198.12 49.53 0)
 			(effects
 				(font
@@ -20254,7 +20254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 245.11 212.09 0)
 			(effects
 				(font
@@ -20339,7 +20339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 92.71 287.02 0)
 			(effects
 				(font
@@ -20365,7 +20365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402FR-0728K7L"
+		(property "Part Number" "AC0402FR-0728K7L(C226945) Alt CRCW040228K7FKED(C2091853)"
 			(at 92.71 287.02 0)
 			(effects
 				(font
@@ -20374,7 +20374,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226945"
+		(property "LCSC" "C2091853"
 			(at 92.71 287.02 90)
 			(effects
 				(font
@@ -20423,7 +20423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 85.09 287.02 0)
 			(effects
 				(font
@@ -20449,7 +20449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402FR-0728K7L"
+		(property "Part Number" "AC0402FR-0728K7L(C226945) Alt CRCW040228K7FKED(C2091853)"
 			(at 85.09 287.02 0)
 			(effects
 				(font
@@ -20458,7 +20458,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226945"
+		(property "LCSC" "C2091853"
 			(at 85.09 287.02 90)
 			(effects
 				(font
@@ -20649,7 +20649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 266.7 205.74 0)
 			(effects
 				(font
@@ -21124,7 +21124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 78.74 306.07 0)
 			(effects
 				(font
@@ -21210,7 +21210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 209.55 172.72 0)
 			(effects
 				(font
@@ -21427,7 +21427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 181.61 204.47 0)
 			(effects
 				(font
@@ -21578,7 +21578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 54.61 302.26 0)
 			(effects
 				(font
@@ -21814,7 +21814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 175.26 204.47 0)
 			(effects
 				(font
@@ -21899,7 +21899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 48.26 341.63 0)
 			(effects
 				(font
@@ -22061,7 +22061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 85.09 279.4 0)
 			(effects
 				(font
@@ -22308,7 +22308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 53.34 326.39 0)
 			(effects
 				(font
@@ -22393,7 +22393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 85.09 326.39 0)
 			(effects
 				(font
@@ -22631,7 +22631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 259.08 160.02 0)
 			(effects
 				(font
@@ -22716,7 +22716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 261.62 215.9 0)
 			(effects
 				(font
@@ -22800,7 +22800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 99.06 168.91 0)
 			(effects
 				(font
@@ -22963,7 +22963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 107.95 334.01 0)
 			(effects
 				(font
@@ -23229,7 +23229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 78.74 290.83 0)
 			(effects
 				(font
@@ -23313,7 +23313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 240.03 222.25 0)
 			(effects
 				(font
@@ -23467,7 +23467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 93.98 334.01 0)
 			(effects
 				(font
@@ -24317,7 +24317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 63.5 308.61 0)
 			(effects
 				(font

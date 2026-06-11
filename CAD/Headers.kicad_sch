@@ -5,9 +5,9 @@
 	(uuid "f4fd74fb-31cd-4ed1-b6d9-5f85fc400b5c")
 	(paper "A3" portrait)
 	(title_block
-		(title "Duet 3 Main Board 3DP")
-		(date "2026-02-17")
-		(rev "1.55")
+		(title "Duet 3 MB 3DP")
+		(date "2026-06-02")
+		(rev "1.56")
 		(company "3DPotter")
 		(comment 1 "(c) 3DPotter")
 	)
@@ -8450,16 +8450,6 @@
 			(justify left bottom)
 		)
 		(uuid "bb743bd8-8421-46c4-ac9d-4a9b56075048")
-	)
-	(text "Before Next Order Change to KK-254\n"
-		(exclude_from_sim no)
-		(at 44.45 78.74 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "c0e4e9c2-22f6-4517-b71b-31f64e6009db")
 	)
 	(text "PanelDue"
 		(exclude_from_sim no)
@@ -17593,7 +17583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 42.545 81.28 0)
 			(effects
 				(font
@@ -17619,7 +17609,7 @@
 				)
 			)
 		)
-		(property "Part Number" "B2B-XH-A(LF)(SN)"
+		(property "Part Number" "A2543WV-2P"
 			(at 42.545 81.28 0)
 			(effects
 				(font
@@ -17628,7 +17618,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C158012"
+		(property "LCSC" "C239362"
 			(at 42.545 81.28 0)
 			(effects
 				(font

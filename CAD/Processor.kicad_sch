@@ -5,13 +5,72 @@
 	(uuid "f212fab1-371b-46de-a29b-54b4a57df652")
 	(paper "A3" portrait)
 	(title_block
-		(title "Duet 3 Main Board 3DP")
-		(date "2026-02-17")
-		(rev "1.55")
+		(title "Duet 3 MB 3DP")
+		(date "2026-06-02")
+		(rev "1.56")
 		(company "3DPotter")
 		(comment 1 "(c) 3DPotter")
 	)
 	(lib_symbols
+		(symbol "3DPotter:3DPotter_Logo"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "3DPotter:3DPotter Logo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3DPotter_Logo_1_1"
+				(text "3D"
+					(at 0 -1.778 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Carters_Various_Bits_and_Pieces:3DPotter_Logo"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -12939,7 +12998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 16.51 181.61 0)
 			(effects
 				(font
@@ -13026,7 +13085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 41.91 181.61 0)
 			(effects
 				(font
@@ -13114,7 +13173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 33.02 215.9 0)
 			(effects
 				(font
@@ -13538,7 +13597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 241.3 40.64 0)
 			(effects
 				(font
@@ -14020,7 +14079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 265.43 265.43 0)
 			(effects
 				(font
@@ -14106,7 +14165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 26.67 208.28 0)
 			(effects
 				(font
@@ -14279,7 +14338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 53.34 198.12 0)
 			(effects
 				(font
@@ -14453,7 +14512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 241.3 48.26 0)
 			(effects
 				(font
@@ -14798,7 +14857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 241.3 44.45 0)
 			(effects
 				(font
@@ -15478,7 +15537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 245.11 300.99 0)
 			(effects
 				(font
@@ -15781,7 +15840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 139.7 26.67 0)
 			(effects
 				(font
@@ -15954,7 +16013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 184.15 213.36 0)
 			(effects
 				(font
@@ -16108,7 +16167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 134.62 44.45 0)
 			(effects
 				(font
@@ -16262,7 +16321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 144.78 46.99 0)
 			(effects
 				(font
@@ -16349,7 +16408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 85.09 45.72 0)
 			(effects
 				(font
@@ -16436,7 +16495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 91.44 45.72 0)
 			(effects
 				(font
@@ -16523,7 +16582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 96.52 45.72 0)
 			(effects
 				(font
@@ -16610,7 +16669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 101.6 45.72 0)
 			(effects
 				(font
@@ -16697,7 +16756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 106.68 45.72 0)
 			(effects
 				(font
@@ -16851,7 +16910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 173.99 46.99 0)
 			(effects
 				(font
@@ -16938,7 +16997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 180.34 46.99 0)
 			(effects
 				(font
@@ -17025,7 +17084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 185.42 46.99 0)
 			(effects
 				(font
@@ -17112,7 +17171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 190.5 46.99 0)
 			(effects
 				(font
@@ -17199,7 +17258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 195.58 46.99 0)
 			(effects
 				(font
@@ -17372,7 +17431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 219.71 257.81 0)
 			(effects
 				(font
@@ -17459,7 +17518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 149.86 27.94 0)
 			(effects
 				(font
@@ -17544,7 +17603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 219.71 270.51 0)
 			(effects
 				(font
@@ -17716,7 +17775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 154.94 48.26 0)
 			(effects
 				(font
@@ -17803,7 +17862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 160.02 48.26 0)
 			(effects
 				(font
@@ -18177,7 +18236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 44.45 151.13 0)
 			(effects
 				(font
@@ -18262,7 +18321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 39.37 151.13 0)
 			(effects
 				(font
@@ -18671,7 +18730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 93.98 199.39 0)
 			(effects
 				(font
@@ -18758,7 +18817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 99.06 203.2 0)
 			(effects
 				(font
@@ -19161,7 +19220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 241.3 52.07 0)
 			(effects
 				(font
@@ -19916,7 +19975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 267.97 302.26 0)
 			(effects
 				(font
@@ -20271,7 +20330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
 			(at 29.21 120.65 0)
 			(effects
 				(font
@@ -20569,6 +20628,70 @@
 			(project "Duet3_MB_6XD"
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050523307"
 					(reference "M11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3DPotter:3DPotter_Logo")
+		(at 140.97 401.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8fdd46d-a554-4465-bfec-f9154d849173")
+		(property "Reference" "TM2"
+			(at 143.51 401.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 143.51 404.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "3DPotter:Amogus"
+			(at 140.97 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050523307"
+					(reference "TM2")
 					(unit 1)
 				)
 			)
