@@ -18251,6 +18251,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41525220"
+			(at 105.41 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternatives" "Either LM70860(C41753413) or LM70880(C41525220) can be used, whichever is cheaper."
+			(at 105.41 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "0b98760d-b592-4bf5-929e-5edb6f428ab1")
 		)
