@@ -6,8 +6,8 @@
 	(paper "A3" portrait)
 	(title_block
 		(title "Duet 3 MB 3DP")
-		(date "2026-06-02")
-		(rev "1.56")
+		(date "2026-07-23")
+		(rev "1.57")
 		(company "3DPotter")
 		(comment 1 "(c) 3DPotter")
 	)
@@ -10285,7 +10285,7 @@
 				)
 			)
 		)
-		(property "Value" "35.7K"
+		(property "Value" "120K"
 			(at 125.2728 154.6352 90)
 			(effects
 				(font
@@ -10319,7 +10319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0603FR-0735K7L"
+		(property "Part Number" "AC0603JR-07120KL"
 			(at 127 154.94 0)
 			(effects
 				(font
@@ -10337,7 +10337,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C144666"
+		(property "LCSC" "C144626"
 			(at 127 154.94 90)
 			(effects
 				(font
@@ -10462,7 +10462,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "10K"
 			(at 150.6728 154.6352 90)
 			(effects
 				(font
@@ -10496,7 +10496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402FR-071KL"
+		(property "Part Number" "AC0402FR-0710KL"
 			(at 152.4 154.94 0)
 			(effects
 				(font
@@ -10505,7 +10505,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C144789"
+		(property "Rating" "50V, 62.5mW"
+			(at 152.4 154.94 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C144807"
 			(at 152.4 154.94 90)
 			(effects
 				(font

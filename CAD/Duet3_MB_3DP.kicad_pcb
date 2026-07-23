@@ -11580,7 +11580,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21848,7 +21848,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
-			(at -2.05 -0.02 270)
+			(at -2.05 -0.02 90)
 			(layer "F.SilkS")
 			(uuid "15465442-fe67-43d0-bd51-00daa907594f")
 			(effects
@@ -21858,8 +21858,8 @@
 				)
 			)
 		)
-		(property "Value" "1K"
-			(at 0 1.17 270)
+		(property "Value" "10K"
+			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "b803ebe0-c0d4-43af-9c6c-0c809f6e6fdb")
 			(effects
@@ -21869,8 +21869,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b375a2e4-f7d4-40df-8b1e-e48255438f1c")
@@ -21882,7 +21882,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "87e8cc0b-5aae-44d0-a211-80c8c7682313")
@@ -21893,7 +21893,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0402FR-071KL"
+		(property "Part Number" "AC0402FR-0710KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21906,12 +21906,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C144789"
+		(property "LCSC" "C144807"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69a77be0-09fb-47c6-927c-b35e6fc1d8ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rating" "50V, 62.5mW"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b59ec18-7f59-498f-8f43-0b1a0fbe36b8")
 			(effects
 				(font
 					(size 1 1)
@@ -22005,7 +22018,7 @@
 			(uuid "fc2bb2e6-ea73-44ce-b7a2-27ab4dc9c57e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "6d3a7227-16e6-4668-8b77-0fc13f5e5f93")
 			(effects
@@ -22074,7 +22087,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -22617,7 +22630,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -23946,7 +23959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -24470,7 +24483,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -25189,7 +25202,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -28631,7 +28644,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -28836,7 +28849,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -29819,7 +29832,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at -2.65 0.02 270)
+			(at -2.65 0.02 90)
 			(layer "F.SilkS")
 			(uuid "8fb17b42-2151-43b9-bd29-f05180e08c30")
 			(effects
@@ -29829,8 +29842,8 @@
 				)
 			)
 		)
-		(property "Value" "35.7K"
-			(at 0 1.43 270)
+		(property "Value" "120K"
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "12b224d1-7dde-4f20-a479-baa67ac93062")
 			(effects
@@ -29840,8 +29853,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ec617183-a195-4ce4-a847-ca61da1e56f4")
@@ -29853,7 +29866,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd90ce9f-af79-456e-8872-11a15ceaa3ff")
@@ -29864,7 +29877,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-0735K7L"
+		(property "Part Number" "AC0603JR-07120KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29890,7 +29903,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C144666"
+		(property "LCSC" "C144626"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30009,7 +30022,7 @@
 			(uuid "25cfa552-e6f8-4777-afbc-5c42d16ad05f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "3dc89dbe-682d-428c-aca3-2728d4e51199")
 			(effects
@@ -32135,7 +32148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35520,7 +35533,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35725,7 +35738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36733,7 +36746,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39748,7 +39761,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -39953,7 +39966,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40159,7 +40172,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40384,7 +40397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -42072,7 +42085,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -42482,7 +42495,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -42892,7 +42905,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -43721,7 +43734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45842,7 +45855,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48132,7 +48145,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48747,7 +48760,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -52443,7 +52456,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54626,7 +54639,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -56295,7 +56308,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -57533,7 +57546,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -58202,7 +58215,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60256,7 +60269,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -60761,7 +60774,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -61567,7 +61580,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -62339,7 +62352,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -63873,7 +63886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -67396,7 +67409,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -67802,7 +67815,7 @@
 		(layer "F.CrtYd")
 		(uuid "c3cee136-afe0-4a10-b514-7833879483c6")
 	)
-	(gr_text "Duet 3 Mainboard\n3DPotter Version\nRevision v1.56\n"
+	(gr_text "Duet 3 Mainboard\n3DPotter Version\nRevision v1.57\n"
 		(at 78.75 188 0)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-00005d9bb9b3")
@@ -68193,7 +68206,7 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "Duet 3 Mainboard 3DPotter\nRevision  v1.56\n"
+	(gr_text "Duet 3 Mainboard 3DPotter\nRevision  v1.57\n"
 		(at 136.8 100.8 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-00005d9bbad9")

@@ -854,6 +854,12 @@
           "label": "P/N",
           "name": "P/N",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alternatives",
+          "name": "Alternatives",
+          "show": false
         }
       ],
       "filter_string": "",
