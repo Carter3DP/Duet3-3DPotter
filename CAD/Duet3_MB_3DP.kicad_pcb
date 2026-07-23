@@ -45744,6 +45744,7 @@
 		(path "/00000000-0000-0000-0000-000050523307/d8fdd46d-a554-4465-bfec-f9154d849173")
 		(sheetname "/Processor/")
 		(sheetfile "Processor.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_line
 			(start 0.19 0.37)
 			(end 0.53 0.33)
@@ -65480,6 +65481,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41525220"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7471d90-e1e7-42ec-9c0d-fa88dddb5579")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternatives" "Either LM70860(C41753413) or LM70880(C41525220) can be used, whichever is cheaper."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f37665dd-9c1c-4c09-8bb5-916b514d0df1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

@@ -4449,7 +4449,7 @@
 	)
 	(text "3A\n"
 		(exclude_from_sim no)
-		(at 207.01 158.75 0)
+		(at 207.01 166.37 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4460,7 +4460,7 @@
 	)
 	(text "Mini Blade Fuses"
 		(exclude_from_sim no)
-		(at 167.64 132.08 0)
+		(at 167.64 130.81 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4471,7 +4471,7 @@
 	)
 	(text "7.5A"
 		(exclude_from_sim no)
-		(at 206.756 143.51 0)
+		(at 206.756 151.13 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4535,7 +4535,7 @@
 	)
 	(text "3A\n"
 		(exclude_from_sim no)
-		(at 205.74 151.13 0)
+		(at 205.74 158.75 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5181,6 +5181,14 @@
 		(at 156.21 82.55)
 		(uuid "2fcc1633-5b37-4add-bd3e-5daaef5689a0")
 	)
+	(no_connect
+		(at 186.69 144.78)
+		(uuid "417dc443-6e7c-4762-85b3-366d5b3d3955")
+	)
+	(no_connect
+		(at 179.07 144.78)
+		(uuid "cff0a58e-5a43-4aa6-a7bb-4f41903f5e80")
+	)
 	(wire
 		(pts
 			(xy 59.69 158.75) (xy 45.72 158.75)
@@ -5413,7 +5421,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 149.86) (xy 189.23 149.86)
+			(xy 185.42 157.48) (xy 189.23 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5533,7 +5541,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 170.18) (xy 189.23 170.18)
+			(xy 195.58 177.8) (xy 189.23 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6463,7 +6471,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 142.24) (xy 193.04 142.24)
+			(xy 189.23 149.86) (xy 193.04 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6563,7 +6571,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 158.75) (xy 189.23 158.75)
+			(xy 185.42 166.37) (xy 189.23 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6633,7 +6641,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 158.75) (xy 177.8 158.75)
+			(xy 173.99 166.37) (xy 177.8 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6813,7 +6821,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 142.24) (xy 177.8 142.24)
+			(xy 173.99 149.86) (xy 177.8 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7233,7 +7241,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 149.86) (xy 177.8 149.86)
+			(xy 173.99 157.48) (xy 177.8 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7533,7 +7541,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 170.18) (xy 184.15 170.18)
+			(xy 179.07 177.8) (xy 184.15 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8963,7 +8971,7 @@
 	)
 	(global_label "VLC1_FUSED"
 		(shape input)
-		(at 189.23 149.86 0)
+		(at 189.23 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8973,7 +8981,7 @@
 		)
 		(uuid "1644d956-3ec6-4a3a-b6c6-f98b9bb7e2a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.9605 149.86 0)
+			(at 205.9605 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8985,7 +8993,7 @@
 	)
 	(global_label "V_IN"
 		(shape input)
-		(at 173.99 142.24 180)
+		(at 173.99 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8995,7 +9003,7 @@
 		)
 		(uuid "21f35b3e-5e82-4d9d-9bec-9507c13a0c9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.4035 142.24 0)
+			(at 166.4035 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9007,7 +9015,7 @@
 	)
 	(global_label "V_FUSED"
 		(shape input)
-		(at 193.04 142.24 0)
+		(at 193.04 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9017,7 +9025,7 @@
 		)
 		(uuid "26c88891-f6b6-407f-bdbf-73b4ca0f04dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.5614 142.24 0)
+			(at 205.5614 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9051,7 +9059,7 @@
 	)
 	(global_label "VLC2_FUSED"
 		(shape input)
-		(at 189.23 158.75 0)
+		(at 189.23 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9061,7 +9069,7 @@
 		)
 		(uuid "29ecc8b3-b7ab-42bf-86ca-fea5ab7e54b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.9605 158.75 0)
+			(at 205.9605 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9139,7 +9147,7 @@
 	)
 	(global_label "V_FUSED"
 		(shape input)
-		(at 179.07 170.18 180)
+		(at 179.07 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9149,7 +9157,7 @@
 		)
 		(uuid "6971ae76-5884-4b6a-bea0-5942ae3154cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.5486 170.18 0)
+			(at 166.5486 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,7 +9521,7 @@
 	)
 	(global_label "V_IN"
 		(shape input)
-		(at 173.99 158.75 180)
+		(at 173.99 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9523,7 +9531,7 @@
 		)
 		(uuid "c8041b8a-c0d0-464a-8d9c-0a57e62093a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.4035 158.75 0)
+			(at 166.4035 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +9631,7 @@
 	)
 	(global_label "V_FUSED_IO"
 		(shape input)
-		(at 195.58 170.18 0)
+		(at 195.58 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9633,7 +9641,7 @@
 		)
 		(uuid "f092f01b-8eec-48d6-94a7-fb0bde5f2f65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.5848 170.18 0)
+			(at 211.5848 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9645,7 +9653,7 @@
 	)
 	(global_label "V_IN"
 		(shape input)
-		(at 173.99 149.86 180)
+		(at 173.99 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9655,7 +9663,7 @@
 		)
 		(uuid "f25525ee-8797-45c6-98cd-1cdba47a8ed2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.4035 149.86 0)
+			(at 166.4035 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14202,7 +14210,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 181.61 149.86 270)
+		(at 181.61 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14210,7 +14218,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061db38e0")
 		(property "Reference" "F10"
-			(at 181.864 147.828 90)
+			(at 181.864 155.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14218,7 +14226,7 @@
 			)
 		)
 		(property "Value" "VLC1_FUSE"
-			(at 181.61 153.67 90)
+			(at 181.61 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14226,7 +14234,7 @@
 			)
 		)
 		(property "Footprint" "complib:MCCQ-122-minibladefuseholder"
-			(at 181.61 148.082 90)
+			(at 181.61 155.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14235,7 +14243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 149.86 0)
+			(at 181.61 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14244,7 +14252,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 149.86 0)
+			(at 181.61 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14253,7 +14261,7 @@
 			)
 		)
 		(property "Part Number" "MCCQ-122 - 3A fitted"
-			(at 181.61 149.86 0)
+			(at 181.61 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14278,7 +14286,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 181.61 158.75 270)
+		(at 181.61 166.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14286,7 +14294,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061dcbf10")
 		(property "Reference" "F11"
-			(at 181.864 156.718 90)
+			(at 181.864 164.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14294,7 +14302,7 @@
 			)
 		)
 		(property "Value" "VLC2_FUSE"
-			(at 181.61 162.56 90)
+			(at 181.61 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14302,7 +14310,7 @@
 			)
 		)
 		(property "Footprint" "complib:MCCQ-122-minibladefuseholder"
-			(at 181.61 156.972 90)
+			(at 181.61 164.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14311,7 +14319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 158.75 0)
+			(at 181.61 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14320,7 +14328,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 158.75 0)
+			(at 181.61 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14329,7 +14337,7 @@
 			)
 		)
 		(property "Part Number" "MCCQ-122 - 3A fitted"
-			(at 181.61 158.75 0)
+			(at 181.61 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14804,7 +14812,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 186.69 170.18 270)
+		(at 186.69 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14812,7 +14820,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062e5c9c7")
 		(property "Reference" "F12"
-			(at 186.69 164.973 90)
+			(at 186.69 172.593 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14820,7 +14828,7 @@
 			)
 		)
 		(property "Value" "FUSE 90V 300mA-500mA"
-			(at 186.69 167.2844 90)
+			(at 186.69 174.9044 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14828,7 +14836,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
-			(at 181.61 171.45 0)
+			(at 181.61 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14838,7 +14846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 170.18 0)
+			(at 186.69 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14847,7 +14855,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 170.18 0)
+			(at 186.69 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14856,7 +14864,7 @@
 			)
 		)
 		(property "Part Number" "1210L010/90AR"
-			(at 186.69 170.18 90)
+			(at 186.69 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14865,7 +14873,7 @@
 			)
 		)
 		(property "LCSC" "C19723489"
-			(at 186.69 170.18 90)
+			(at 186.69 177.8 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15572,7 +15580,7 @@
 	)
 	(symbol
 		(lib_id "3DPotter:6.35mm_Dia-Ceramic-Fuse-Holder1/2")
-		(at 182.88 142.24 0)
+		(at 182.88 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15580,7 +15588,7 @@
 		(dnp no)
 		(uuid "1cda959d-8d39-4a57-88e4-caa54892dae6")
 		(property "Reference" "F1"
-			(at 179.832 139.1919 0)
+			(at 179.832 146.8119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15589,7 +15597,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 184.15 143.5099 0)
+			(at 184.15 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15598,7 +15606,7 @@
 			)
 		)
 		(property "Footprint" "3DPotter:01220088Z"
-			(at 182.88 142.24 0)
+			(at 182.88 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15607,7 +15615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 142.24 0)
+			(at 182.88 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15616,7 +15624,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 142.24 0)
+			(at 182.88 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15625,7 +15633,7 @@
 			)
 		)
 		(property "LCSC" "C206903"
-			(at 182.88 138.43 0)
+			(at 182.88 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15634,7 +15642,7 @@
 			)
 		)
 		(property "Part Number" "01220088Z"
-			(at 182.626 140.208 0)
+			(at 182.626 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16763,7 +16771,7 @@
 	(symbol
 		(lib_name "6.35mm_Dia-Ceramic-Fuse-Holder1/2_1")
 		(lib_id "3DPotter:6.35mm_Dia-Ceramic-Fuse-Holder1/2")
-		(at 184.15 142.24 180)
+		(at 184.15 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16771,7 +16779,7 @@
 		(dnp no)
 		(uuid "9a7cfd6e-01c1-48c3-aa73-91224a772bc5")
 		(property "Reference" "F5"
-			(at 186.69 139.1921 0)
+			(at 186.69 146.8121 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16780,7 +16788,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 182.88 140.9701 0)
+			(at 182.88 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16789,7 +16797,7 @@
 			)
 		)
 		(property "Footprint" "3DPotter:01220088Z"
-			(at 184.15 142.24 0)
+			(at 184.15 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16798,7 +16806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 142.24 0)
+			(at 184.15 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16807,7 +16815,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 142.24 0)
+			(at 184.15 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16816,7 +16824,7 @@
 			)
 		)
 		(property "LCSC" "C206903"
-			(at 184.15 146.05 0)
+			(at 184.15 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16825,7 +16833,7 @@
 			)
 		)
 		(property "Part Number" "01220088Z"
-			(at 184.404 144.272 0)
+			(at 184.404 151.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17515,6 +17523,96 @@
 			(project "Duet3_MB_3DP"
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050577a22"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 182.88 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3f01028-a0d1-49a8-b43e-d7dd75d8ef97")
+		(property "Reference" "F8"
+			(at 182.88 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5A Fuse"
+			(at 182.88 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 182.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0313005.HXP or 0313005.MXP"
+			(at 182.88 144.78 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C142901"
+			(at 182.88 144.78 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5af89564-9d57-408d-a8bc-a3ae881b57f3")
+		)
+		(pin "2"
+			(uuid "70eb8bf7-9305-4dce-9eae-d919ff348267")
+		)
+		(instances
+			(project ""
+				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050523307"
+					(reference "F8")
+					(unit 1)
+				)
+				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-000050577a22"
+					(reference "F8")
 					(unit 1)
 				)
 			)
