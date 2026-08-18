@@ -14802,7 +14802,7 @@
 				)
 			)
 		)
-		(property "Part Number" " SML-310LTT86"
+		(property "Part Number" "TLMS1000-GS15"
 			(at 67.31 227.33 0)
 			(effects
 				(font
@@ -14811,7 +14811,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C79636"
+		(property "LCSC" "C23070302"
 			(at 67.31 227.33 0)
 			(effects
 				(font

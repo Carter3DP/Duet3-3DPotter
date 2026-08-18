@@ -10090,7 +10090,7 @@
 				)
 			)
 		)
-		(property "Part Number" "SML-310LTT86"
+		(property "Part Number" "TLMS1000-GS15"
 			(at 140.97 162.56 0)
 			(effects
 				(font
@@ -10099,7 +10099,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C79636"
+		(property "LCSC" "C23070302"
 			(at 140.97 162.56 0)
 			(effects
 				(font
@@ -17926,7 +17926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM32ER61C476KE15L"
+		(property "Part Number" "GRT32EC81C476KE13L"
 			(at 212.09 54.61 0)
 			(effects
 				(font
@@ -17935,7 +17935,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C77101"
+		(property "LCSC" "C576521"
 			(at 212.09 54.61 0)
 			(effects
 				(font
