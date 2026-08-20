@@ -292,12 +292,12 @@
 	(net 143 "unconnected-(J43-SBU2-PadB8)")
 	(net 144 "spi1cs0")
 	(net 145 "Net-(J46-LEDG_A)")
-	(net 146 "DRIVER_1_ERR")
-	(net 147 "DRIVER_0_ERR")
-	(net 148 "DRIVER_3_ERR")
-	(net 149 "DRIVER_2_ERR")
-	(net 150 "DRIVER_5_ERR")
-	(net 151 "DRIVER_4_ERR")
+	(net 146 "unconnected-(U11-PC10-Pad90)")
+	(net 147 "unconnected-(U11-PC17-Pad103)")
+	(net 148 "unconnected-(U11-PD31-Pad2)")
+	(net 149 "unconnected-(U11-PD29-Pad108)")
+	(net 150 "unconnected-(U11-PC2-Pad39)")
+	(net 151 "unconnected-(U11-PD13-Pad88)")
 	(net 152 "unconnected-(J46-NC-Pad7)")
 	(net 153 "Net-(J46-LEDY_K)")
 	(net 154 "unconnected-(J48-Pin_10-Pad10)")
@@ -5364,9 +5364,9 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 151 "DRIVER_4_ERR")
+			(net 148 "unconnected-(U11-PD31-Pad2)")
 			(pinfunction "PD31")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "84aac022-880b-473d-82ad-f2827a88892f")
 		)
 		(pad "3" smd roundrect
@@ -5734,9 +5734,9 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 148 "DRIVER_3_ERR")
+			(net 150 "unconnected-(U11-PC2-Pad39)")
 			(pinfunction "PC2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "becc5b0d-0352-4ad7-ac5e-da033ca0b239")
 		)
 		(pad "40" smd roundrect
@@ -6096,7 +6096,7 @@
 			(roundrect_rratio 0.25)
 			(net 74 "unconnected-(U11-PA9-Pad75)")
 			(pinfunction "PA9")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "36cd765a-f621-46fc-9b88-d90e333169eb")
 		)
 		(pad "76" smd roundrect
@@ -6224,9 +6224,9 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 149 "DRIVER_2_ERR")
+			(net 151 "unconnected-(U11-PD13-Pad88)")
 			(pinfunction "PD13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ec94d7fb-8ff3-47fc-9bcb-6ab1990a40ec")
 		)
 		(pad "89" smd roundrect
@@ -6244,9 +6244,9 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 150 "DRIVER_5_ERR")
+			(net 146 "unconnected-(U11-PC10-Pad90)")
 			(pinfunction "PC10")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "283f6910-e54a-4bc1-a20d-86715c3ab323")
 		)
 		(pad "91" smd roundrect
@@ -6374,9 +6374,9 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 146 "DRIVER_1_ERR")
+			(net 147 "unconnected-(U11-PC17-Pad103)")
 			(pinfunction "PC17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "51ce9675-eb70-4a97-98fd-269bf17eea73")
 		)
 		(pad "104" smd roundrect
@@ -6424,9 +6424,9 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 147 "DRIVER_0_ERR")
+			(net 149 "unconnected-(U11-PD29-Pad108)")
 			(pinfunction "PD29")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "a8cefac6-64e1-41d0-bc58-04e647fd0fde")
 		)
 		(pad "109" smd roundrect
@@ -11580,7 +11580,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21869,7 +21869,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22087,7 +22087,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -22630,7 +22630,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -23959,7 +23959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -24483,7 +24483,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -25202,7 +25202,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -28644,7 +28644,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -28849,7 +28849,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -29853,7 +29853,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32148,7 +32148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35533,7 +35533,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35738,7 +35738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36746,7 +36746,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39761,7 +39761,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -39966,7 +39966,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40172,7 +40172,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40397,7 +40397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -42085,7 +42085,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -42495,7 +42495,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -42905,7 +42905,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -43391,7 +43391,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45512,7 +45512,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47802,7 +47802,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48417,7 +48417,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -52113,7 +52113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54572,7 +54572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -56241,7 +56241,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -57479,7 +57479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -58148,7 +58148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60202,7 +60202,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -60707,7 +60707,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -61513,7 +61513,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -62285,7 +62285,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -63819,7 +63819,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -67342,7 +67342,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
