@@ -5620,15 +5620,26 @@
 		)
 		(uuid "5161f9bb-9136-46d9-887e-941532e6fd1a")
 	)
-	(text "CS1 is for daughter boards that are connected through the IDC header\nCS2 is unused for now, I can't think of anything that would need it."
+	(text "CS1 is for daughter boards that are connected through the IDC header\n"
 		(exclude_from_sim no)
-		(at 232.156 136.144 0)
+		(at 232.156 134.874 0)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
 		)
 		(uuid "622ae0bc-a3ec-4bf1-ae58-06a9f72ebb5e")
+	)
+	(text "TODO: connect ext_spi properly"
+		(exclude_from_sim no)
+		(at 93.218 153.924 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "7eebd267-ac17-4aa4-858f-b2ce3c721d01")
 	)
 	(text "VREFN"
 		(exclude_from_sim no)
@@ -5672,6 +5683,17 @@
 			)
 		)
 		(uuid "bddfc95e-d150-43bc-9b83-c3e608cac60b")
+	)
+	(text "I have called this the EXTernal SPI\nbus. It typically connects to\nthe OLSDDB."
+		(exclude_from_sim no)
+		(at 93.98 148.336 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "c3147480-0e4b-43f1-b428-cfd4aad35521")
 	)
 	(text "Pulldown on:\nDriver 5 DIR\nID this as a v1.01 6XD board"
 		(exclude_from_sim no)
@@ -6111,20 +6133,12 @@
 		(uuid "fc1dd602-337f-4382-b22a-075735d9fffc")
 	)
 	(no_connect
-		(at 114.3 152.4)
-		(uuid "0117b694-456c-44dd-a8c6-770573d6c97c")
-	)
-	(no_connect
 		(at 175.26 83.82)
 		(uuid "03b52fe0-00f8-44f4-80ba-38c9ce99f82c")
 	)
 	(no_connect
 		(at 114.3 99.06)
 		(uuid "051aa23d-3ed8-48c5-9c69-e67dd73ec545")
-	)
-	(no_connect
-		(at 114.3 147.32)
-		(uuid "12a9b4a7-b4f1-494e-9bb8-be9964b7e3f9")
 	)
 	(no_connect
 		(at 114.3 83.82)
@@ -6179,6 +6193,10 @@
 		(uuid "54a11618-509d-4229-b656-b7476f59f6d6")
 	)
 	(no_connect
+		(at 114.3 154.94)
+		(uuid "560750bd-713d-4c68-b4d6-e2779b058696")
+	)
+	(no_connect
 		(at 114.3 182.88)
 		(uuid "573d207a-f468-4870-96d1-4f15c0946e80")
 	)
@@ -6189,10 +6207,6 @@
 	(no_connect
 		(at 175.26 68.58)
 		(uuid "63f9c2f9-f6d7-4e5d-8334-c3b0e279a03c")
-	)
-	(no_connect
-		(at 114.3 175.26)
-		(uuid "7f74562a-2e2c-4ffa-ad62-981314ce1b3d")
 	)
 	(no_connect
 		(at 114.3 101.6)
@@ -6249,10 +6263,6 @@
 	(no_connect
 		(at 175.26 106.68)
 		(uuid "d8bf33ad-0713-4788-8b39-82a8004711df")
-	)
-	(no_connect
-		(at 114.3 154.94)
-		(uuid "ea4dc4b6-c6c5-4c21-9a72-70286dc2ab02")
 	)
 	(no_connect
 		(at 114.3 106.68)
@@ -7120,16 +7130,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 137.16) (xy 175.26 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42449ce5-2c7a-49c6-834d-7e010a498a5e")
-	)
-	(wire
-		(pts
 			(xy 38.1 175.26) (xy 48.26 175.26)
 		)
 		(stroke
@@ -7500,13 +7500,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 149.86) (xy 114.3 149.86)
+			(xy 109.22 152.4) (xy 114.3 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "585bdbe7-c0e8-421f-8eda-8d9826e47f84")
+		(uuid "5810aee6-a991-4897-b96e-06dee7b9e08f")
 	)
 	(wire
 		(pts
@@ -7800,6 +7800,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 149.86) (xy 114.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708e4037-89dc-432e-9676-7aaa477ec465")
+	)
+	(wire
+		(pts
 			(xy 157.48 44.45) (xy 157.48 53.34)
 		)
 		(stroke
@@ -7887,6 +7897,16 @@
 			(type default)
 		)
 		(uuid "753bc21b-56eb-4c62-957e-a3f5da0152ba")
+	)
+	(wire
+		(pts
+			(xy 109.22 175.26) (xy 114.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756fe6e0-3d55-45a5-a07e-f2eb87b1d574")
 	)
 	(wire
 		(pts
@@ -8267,6 +8287,16 @@
 			(type default)
 		)
 		(uuid "92c97e59-8d73-487d-a074-842cd80dbd7b")
+	)
+	(wire
+		(pts
+			(xy 109.22 147.32) (xy 114.3 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9364b481-f880-48ec-9fa0-0d1ad3cab912")
 	)
 	(wire
 		(pts
@@ -9640,6 +9670,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 137.16) (xy 180.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87ac345-2c13-410c-9df7-f42bee9cb754")
+	)
+	(wire
+		(pts
 			(xy 16.51 170.18) (xy 114.3 170.18)
 		)
 		(stroke
@@ -10618,6 +10658,28 @@
 			)
 		)
 	)
+	(global_label "EXT_SPI_CS"
+		(shape input)
+		(at 109.22 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24e2ffba-2687-4eb2-ad7c-906d7e86dd34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.0639 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCCK"
 		(shape input)
 		(at 109.22 127 180)
@@ -11335,26 +11397,6 @@
 			)
 		)
 	)
-	(global_label "spi1cs2"
-		(shape input)
-		(at 180.34 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "71e1759d-6883-462f-b0e1-c793813f9753")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO_0_OUT"
 		(shape input)
 		(at 193.04 213.36 0)
@@ -11610,6 +11652,28 @@
 			)
 		)
 	)
+	(global_label "EXT_SPI_DI"
+		(shape input)
+		(at 109.22 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81bc267b-abbe-4252-b558-2af719a9612e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.6686 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VREFP"
 		(shape input)
 		(at 109.22 215.9 180)
@@ -11717,22 +11781,22 @@
 	)
 	(global_label "TEMP_1"
 		(shape input)
-		(at 109.22 149.86 180)
+		(at 180.34 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9146ef8f-691e-4acb-84a7-c603ba679fb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.8739 149.86 0)
+			(at 189.6861 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12077,6 +12141,28 @@
 			)
 		)
 	)
+	(global_label "EXT_SPI_DO"
+		(shape input)
+		(at 109.22 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c21e7360-2148-4bb6-a5cd-4532b7c5cdb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.9429 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRIVER_1_DIR"
 		(shape input)
 		(at 180.34 172.72 0)
@@ -12372,6 +12458,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXT_SPI_CK"
+		(shape input)
+		(at 109.22 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0238a50-8605-4001-8e5f-34b56f6667b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.0034 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
