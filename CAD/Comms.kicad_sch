@@ -8280,12 +8280,6 @@
 		(uuid "ec5992e3-1389-4ed3-9b05-72fe32e5228e")
 	)
 	(junction
-		(at 261.62 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed574e59-8bb7-40c5-be07-8f1c8b24fc13")
-	)
-	(junction
 		(at 152.4 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9000,16 +8994,6 @@
 			(type default)
 		)
 		(uuid "29ee1dad-954f-4437-8c96-9a6db5658a18")
-	)
-	(wire
-		(pts
-			(xy 261.62 218.44) (xy 261.62 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a99283c-fc24-4313-a724-865c5837c5a8")
 	)
 	(wire
 		(pts
@@ -9763,6 +9747,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 218.44) (xy 261.62 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56404535-f2f3-4d16-a85d-b10aa8f30a3d")
+	)
+	(wire
+		(pts
 			(xy 55.88 93.98) (xy 49.53 93.98)
 		)
 		(stroke
@@ -10390,16 +10384,6 @@
 			(type default)
 		)
 		(uuid "788d4556-bf56-435d-85ab-d5198337704f")
-	)
-	(wire
-		(pts
-			(xy 233.68 222.25) (xy 237.49 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79198652-cd2a-4f9b-b494-f651fb7c2014")
 	)
 	(wire
 		(pts
@@ -12243,6 +12227,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 222.25) (xy 266.7 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d167e8-bb04-4d3d-b465-e83839ef6f42")
+	)
+	(wire
+		(pts
 			(xy 130.81 118.11) (xy 130.81 124.46)
 		)
 		(stroke
@@ -12813,16 +12807,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 222.25) (xy 261.62 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa376222-e34e-4129-b895-7d30167663ba")
-	)
-	(wire
-		(pts
 			(xy 99.06 179.07) (xy 105.41 179.07)
 		)
 		(stroke
@@ -12840,16 +12824,6 @@
 			(type default)
 		)
 		(uuid "fbe568d1-9c69-4426-9b37-bdc349863a5c")
-	)
-	(wire
-		(pts
-			(xy 261.62 222.25) (xy 269.24 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbea19e1-5085-4c75-b898-3aa6842707b1")
 	)
 	(wire
 		(pts
@@ -13418,26 +13392,6 @@
 		(uuid "3c4ce807-b2db-4623-bb21-631f516cdfea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127 541.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "spi1cs1"
-		(shape input)
-		(at 233.68 222.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "42f076a8-e9d9-4afe-963e-27f7e8715da4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14187,6 +14141,28 @@
 			)
 		)
 	)
+	(global_label "EXT_SPI_CS"
+		(shape input)
+		(at 266.7 222.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abc0d98b-0f13-4e2f-887d-aaef7a7f0e91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.8561 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCCDA"
 		(shape input)
 		(at 40.64 180.34 180)
@@ -14617,28 +14593,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI1_CS1"
-		(shape input)
-		(at 269.24 222.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef32f14c-c288-4e09-8872-3308ed156585")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.5214 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -23283,91 +23237,6 @@
 			(project ""
 				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-00005b64a4e7"
 					(reference "R70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 240.03 222.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f216d41-0e14-47d9-8aa2-75d9b19d17f7")
-		(property "Reference" "R74"
-			(at 245.745 221.615 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 236.22 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "3DPotter:0402_1005Metric_NoSilk"
-			(at 240.03 222.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 222.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402FR-071KL"
-			(at 240.03 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C144789"
-			(at 240.03 222.25 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4eee7b4-0cf9-41fa-a1d3-a4eb64edf346")
-		)
-		(pin "2"
-			(uuid "c1eed275-d2cd-46c5-a951-260ffb1a1926")
-		)
-		(instances
-			(project "Duet3_MB_3DP"
-				(path "/94813053-1316-4754-9fb4-4dbbf7dc780d/00000000-0000-0000-0000-00005b64a4e7"
-					(reference "R74")
 					(unit 1)
 				)
 			)

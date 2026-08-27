@@ -5620,27 +5620,6 @@
 		)
 		(uuid "5161f9bb-9136-46d9-887e-941532e6fd1a")
 	)
-	(text "CS1 is for daughter boards that are connected through the IDC header\n"
-		(exclude_from_sim no)
-		(at 232.156 134.874 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "622ae0bc-a3ec-4bf1-ae58-06a9f72ebb5e")
-	)
-	(text "TODO: connect ext_spi properly"
-		(exclude_from_sim no)
-		(at 93.218 153.924 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "7eebd267-ac17-4aa4-858f-b2ce3c721d01")
-	)
 	(text "VREFN"
 		(exclude_from_sim no)
 		(at 255.27 281.94 0)
@@ -6233,6 +6212,10 @@
 		(uuid "a6f1f6bf-d276-4e10-a23b-7eb6cc408c0c")
 	)
 	(no_connect
+		(at 175.26 134.62)
+		(uuid "a795fae3-77d5-407c-bae5-60df2e717a13")
+	)
+	(no_connect
 		(at 114.3 210.82)
 		(uuid "a83c35ea-b17c-4e18-b7b8-2cfa7fa73e92")
 	)
@@ -6547,16 +6530,6 @@
 			(type default)
 		)
 		(uuid "0ebffcb3-96dc-4722-92b8-a115b734b966")
-	)
-	(wire
-		(pts
-			(xy 180.34 134.62) (xy 175.26 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f82511a-f7a7-4aa5-802e-5ea1b2990ce1")
 	)
 	(wire
 		(pts
@@ -12092,26 +12065,6 @@
 		(uuid "b5acd8e4-9939-4c9e-b2e2-118e66f26c28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.24 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "spi1cs1"
-		(shape input)
-		(at 180.34 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b6aabff0-6451-4ec3-8d68-dbb79f537451")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
